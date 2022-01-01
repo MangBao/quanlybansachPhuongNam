@@ -1,0 +1,43 @@
+﻿@model IEnumerable<BT_NHOM.Models.NhaXuatBan>
+
+@{
+    ViewBag.Title = "IndexNXB";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    var grid = new WebGrid(Model, canPage: true, defaultSort: "MaNXB", rowsPerPage: 5);
+}
+<h1 style="text-align:center">Danh sách nhà xuất bản</h1>
+<a href="@Url.Action("CreateNXB")" style="margin-top: 20px;" class="price price_color">Thêm NXB</a>
+
+<table class="table">
+    @grid.GetHtml(
+            tableStyle: "table table-bordered table-hover",
+            headerStyle: "header_table",
+            footerStyle: "grid-footer",
+            fillEmptyRows: true,
+            mode: WebGridPagerModes.Numeric,
+            alternatingRowStyle: "alternatingRowStyle",
+              columns: new[]{
+                grid.Column("STT",format: item => item.WebGrid.Rows.IndexOf(item) + 1 + Math.Round(Convert.ToDouble(grid.TotalRowCount / grid.PageCount) / grid.RowsPerPage) * grid.RowsPerPage * grid.PageIndex),
+                grid.Column("MaNXB","Mã NXB"),
+                grid.Column("TenNXB","Tên NXB"),
+                grid.Column("DiaChiNXB", "Địa chỉ"),
+                grid.Column("DienThoai", "Điện thoại"),                
+                
+                grid.Column("Chức năng", format: @<text>
+
+                    <a href="@Url.Action("EditNXB",
+                                new { id = item.MaNXB })" class="edit-btn">
+                        <abbr title="Chỉnh sửa"><img src="~/Assets/Multimedia/edit.png" width="20" height="20" /></abbr>
+                    </a>&nbsp;|&nbsp;
+                    <a href="@Url.Action("DelNXB",
+                                new { id = item.MaNXB })" class="edit-btn">
+                        <abbr title="Xóa"><img src="~/Assets/Multimedia/delete.png" width="20" height="20" /></abbr>
+                    </a>
+                    @*&nbsp;|&nbsp;
+                    <a href="@Url.Action("DelNXB",
+                                new { id = item.MaNXB})" class="edit-btn">Xóa NXB</a>*@
+                </text>)
+              }
+          )
+
+</table>

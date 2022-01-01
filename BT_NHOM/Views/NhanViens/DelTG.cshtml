@@ -1,0 +1,33 @@
+﻿@model BT_NHOM.Models.TacGia
+
+@{
+    ViewBag.Title = "DelTG";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div id="cart" class="grid__column-12" style="margin-top:20px">
+
+    <h3 style="text-align: center;">Bạn có chắc muốn xóa tác giả @Html.DisplayFor(model => model.TenTG)?</h3>
+    <hr />
+    <div class="form-horizontal" style="display:flex; justify-content:center">
+
+        <div style=" margin-left: 10px; width: 350px;">
+            <label class="form-control">@Html.DisplayNameFor(model => model.MaTG): @Html.DisplayFor(model => model.MaTG)</label>
+            <label class="form-control">@Html.DisplayNameFor(model => model.TenTG): @Html.DisplayFor(model => model.TenTG)</label>
+            <label class="form-control">@Html.DisplayNameFor(model => model.DiaChi): @Html.DisplayFor(model => model.DiaChi)</label>
+        </div>
+
+    </div>
+    <div class="home-filter grid__row">
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="form-actions no-color">
+                <button type="submit" value="DelTG" class="btn btn--primary">Xóa</button> |
+
+                @Html.ActionLink("Back to List", "IndexTG")
+            </div>
+        }
+    </div>
+</div>

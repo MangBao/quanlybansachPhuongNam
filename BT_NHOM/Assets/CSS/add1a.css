@@ -1,0 +1,8 @@
+﻿@media only screen and (max-width: 768px) {
+    #form_xn form{
+        width:100%
+    }
+    #cart_body h3 {
+        font-size: 1.38rem;
+    }
+}

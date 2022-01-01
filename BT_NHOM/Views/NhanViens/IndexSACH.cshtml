@@ -1,0 +1,96 @@
+﻿@model IEnumerable<BT_NHOM.Models.Sach>
+
+@{
+    ViewBag.Title = "IndexSACH";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    var grid = new WebGrid(Model, canPage: true, defaultSort: "MaSach", rowsPerPage: 5);
+}
+
+<h1 style="text-align:center">Danh sách sách</h1>
+
+<a href="@Url.Action("CreateSACH")" style="margin-top: 20px;" class="price price_color">Thêm sách</a>
+
+<div>
+    @using (Html.BeginForm("IndexSACH", "NhanViens", FormMethod.Get))
+    {
+        @Html.AntiForgeryToken()
+        <table class="table1" align="center">
+            <tr>
+                <td>
+                    <div> Mã sách</div>
+                </td>
+                <td>
+                    <input style="margin:5px;width:215px" type="text" name="maS" value="@ViewBag.maS" />
+                </td>
+            </tr>
+            <tr>
+                <td>Tên sách</td>
+                <td>
+                    <input style="margin:5px;width:215px" type="text" name="tenS" value="@ViewBag.tenS" />
+                </td>
+            </tr>
+
+            <tr>
+                <td>Thể loại</td>
+                <td>
+                    @Html.DropDownList("MaTL", null, "Tất cả", htmlAttributes: new { @class = "form-control" })
+                </td>
+            </tr>
+            <tr>
+                <td>Ngôn ngữ</td>
+                <td>
+                    @Html.DropDownList("MaNN", null, "Tất cả", htmlAttributes: new { @class = "form-control" })
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" name="submit" value="Tìm kiếm" style="margin: 5px;width:100px;
+                background-color: blue;color:white" />
+                    <input type="button" name="Nhapmoi" value="Nhập mới" style="margin: 5px;width:100px;
+                background-color: blue;color:white" onclick="location.href='@Url.Action("IndexSACH", "NhanViens/IndexSACH")'" />
+
+                </td>
+            </tr>
+        </table>
+    }
+</div>
+<table class="table">
+    @ViewBag.TB
+    @grid.GetHtml(
+            tableStyle: "table table-bordered table-hover",
+            headerStyle: "header_table",
+            footerStyle: "grid-footer",
+            fillEmptyRows: true,
+            mode: WebGridPagerModes.Numeric,
+            alternatingRowStyle: "alternatingRowStyle",
+              columns: new[]{
+                grid.Column("STT",format: item => item.WebGrid.Rows.IndexOf(item) + 1 + Math.Round(Convert.ToDouble(grid.TotalRowCount / grid.PageCount) / grid.RowsPerPage) * grid.RowsPerPage * grid.PageIndex),
+                grid.Column("Ảnh bìa", format: @<img width="30px" height="40px" src="@Href("~/Assets/Multimedia/" + item.AnhBia)" /> ),
+grid.Column("MaSach","Mã sách"),
+grid.Column("TenSach","Tên sách"),
+grid.Column("TenTG", "Tên tác giả"),
+grid.Column("NgayXB","Ngày xuất bản",format:@<text> @item.NgayXB.ToString("dd/MM/yyyy")</text>),
+grid.Column("SoLuongTon", "Số lượng tồn"),
+grid.Column("GiaSach", "Giá sách"),
+
+grid.Column("TheLoai.TenTL", "Thể loại"),
+grid.Column("NgonNgu.TenNN", "Ngôn ngữ"),
+grid.Column("NhaXuatBan.TenNXB", "Nhà xuất bản"),
+//the model fields to display
+grid.Column("Chức năng", format: @<text>
+
+    <a href="@Url.Action("EditSACH",
+                                new { id = item.MaSach })" class="edit-btn">
+        <abbr title="Chỉnh sửa"><img src="~/Assets/Multimedia/edit.png" width="20" height="20" /></abbr>
+    </a>&nbsp;|
+
+    <a href="@Url.Action("DelSACH",
+                                new { id = item.MaSach })" class="edit-btn">
+        <abbr title="Xóa"><img src="~/Assets/Multimedia/delete.png" width="20" height="20" /></abbr>
+    </a>
+</text>)
+}
+)
+
+</table>

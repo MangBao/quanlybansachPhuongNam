@@ -1,0 +1,34 @@
+﻿@model BT_NHOM.Models.NhaXuatBan
+
+@{
+    ViewBag.Title = "DelNXB";
+    Layout = "~/Views/Shared/_LayoutHomePage.cshtml";
+}
+
+<div id="cart" class="grid__column-12" style="margin-top:20px">
+
+    <h3 style="text-align: center;">Are you sure you want to delete this?</h3>
+    <hr />
+    <div class="form-horizontal" style="display:flex; justify-content:center">
+
+        <div style=" margin-left: 10px; width: 350px;">
+            <label class="form-control">@Html.DisplayNameFor(model => model.MaNXB): @Html.DisplayFor(model => model.MaNXB)</label>
+            <label class="form-control">@Html.DisplayNameFor(model => model.TenNXB): @Html.DisplayFor(model => model.TenNXB)</label>
+            
+            <label class="form-control">@Html.DisplayNameFor(model => model.DiaChiNXB): @Html.DisplayFor(model => model.DiaChiNXB)</label>
+            <label class="form-control">@Html.DisplayNameFor(model => model.DienThoai): @Html.DisplayFor(model => model.DienThoai)</label>
+        </div>
+
+    </div>
+    <div class="home-filter grid__row">
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="form-actions no-color">
+                <input type="submit" value="DelNXB" class="btn btn--primary" /> |
+                @Html.ActionLink("Back to List", "IndexNXB")
+            </div>
+        }
+    </div>
+</div>

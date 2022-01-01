@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="BaoCao" targetNamespace="http://tempuri.org/BaoCao.xsd" xmlns:mstns="http://tempuri.org/BaoCao.xsd" xmlns="http://tempuri.org/BaoCao.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="1" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="QLBSPhuongNam1ConnectionString" IsAppSettingsProperty="true" Modifier="Assembly" Name="QLBSPhuongNam1ConnectionString (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.QLBSPhuongNam1ConnectionString.ConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="QLBSPhuongNamConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="QLBSPhuongNamConnectionString (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.QLBSPhuongNamConnectionString.ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="v_Don_Dat_hangTableAdapter" GeneratorDataComponentClassName="v_Don_Dat_hangTableAdapter" Name="v_Don_Dat_hang" UserDataComponentName="v_Don_Dat_hangTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="QLBSPhuongNamConnectionString (Web.config)" DbObjectName="QLBSPhuongNam.dbo.v_Don_Dat_hang" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT MaHD, TenSach, TenKH, DiaChiGiao, SoDT, GiaBan, SoLuongSach, NgayXuatKho FROM dbo.v_Don_Dat_hang</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="MaHD" DataSetColumn="MaHD" />
+              <Mapping SourceColumn="TenSach" DataSetColumn="TenSach" />
+              <Mapping SourceColumn="TenKH" DataSetColumn="TenKH" />
+              <Mapping SourceColumn="DiaChiGiao" DataSetColumn="DiaChiGiao" />
+              <Mapping SourceColumn="SoDT" DataSetColumn="SoDT" />
+              <Mapping SourceColumn="GiaBan" DataSetColumn="GiaBan" />
+              <Mapping SourceColumn="SoLuongSach" DataSetColumn="SoLuongSach" />
+              <Mapping SourceColumn="NgayXuatKho" DataSetColumn="NgayXuatKho" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="BaoCao" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="BaoCao" msprop:Generator_UserDSName="BaoCao">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="v_Don_Dat_hang" msprop:Generator_TableClassName="v_Don_Dat_hangDataTable" msprop:Generator_TableVarName="tablev_Don_Dat_hang" msprop:Generator_TablePropName="v_Don_Dat_hang" msprop:Generator_RowDeletingName="v_Don_Dat_hangRowDeleting" msprop:Generator_RowChangingName="v_Don_Dat_hangRowChanging" msprop:Generator_RowEvHandlerName="v_Don_Dat_hangRowChangeEventHandler" msprop:Generator_RowDeletedName="v_Don_Dat_hangRowDeleted" msprop:Generator_UserTableName="v_Don_Dat_hang" msprop:Generator_RowChangedName="v_Don_Dat_hangRowChanged" msprop:Generator_RowEvArgName="v_Don_Dat_hangRowChangeEvent" msprop:Generator_RowClassName="v_Don_Dat_hangRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MaHD" msprop:Generator_ColumnVarNameInTable="columnMaHD" msprop:Generator_ColumnPropNameInRow="MaHD" msprop:Generator_ColumnPropNameInTable="MaHDColumn" msprop:Generator_UserColumnName="MaHD">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TenSach" msprop:Generator_ColumnVarNameInTable="columnTenSach" msprop:Generator_ColumnPropNameInRow="TenSach" msprop:Generator_ColumnPropNameInTable="TenSachColumn" msprop:Generator_UserColumnName="TenSach">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TenKH" msprop:Generator_ColumnVarNameInTable="columnTenKH" msprop:Generator_ColumnPropNameInRow="TenKH" msprop:Generator_ColumnPropNameInTable="TenKHColumn" msprop:Generator_UserColumnName="TenKH" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DiaChiGiao" msprop:Generator_ColumnVarNameInTable="columnDiaChiGiao" msprop:Generator_ColumnPropNameInRow="DiaChiGiao" msprop:Generator_ColumnPropNameInTable="DiaChiGiaoColumn" msprop:Generator_UserColumnName="DiaChiGiao" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SoDT" msprop:Generator_ColumnVarNameInTable="columnSoDT" msprop:Generator_ColumnPropNameInRow="SoDT" msprop:Generator_ColumnPropNameInTable="SoDTColumn" msprop:Generator_UserColumnName="SoDT" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="GiaBan" msprop:Generator_ColumnVarNameInTable="columnGiaBan" msprop:Generator_ColumnPropNameInRow="GiaBan" msprop:Generator_ColumnPropNameInTable="GiaBanColumn" msprop:Generator_UserColumnName="GiaBan" type="xs:decimal" />
+              <xs:element name="SoLuongSach" msprop:Generator_ColumnVarNameInTable="columnSoLuongSach" msprop:Generator_ColumnPropNameInRow="SoLuongSach" msprop:Generator_ColumnPropNameInTable="SoLuongSachColumn" msprop:Generator_UserColumnName="SoLuongSach" type="xs:int" />
+              <xs:element name="NgayXuatKho" msprop:Generator_ColumnVarNameInTable="columnNgayXuatKho" msprop:Generator_ColumnPropNameInRow="NgayXuatKho" msprop:Generator_ColumnPropNameInTable="NgayXuatKhoColumn" msprop:Generator_UserColumnName="NgayXuatKho" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:v_Don_Dat_hang" />
+      <xs:field xpath="mstns:MaHD" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

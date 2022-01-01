@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c1b8fee6942740cfbd13ef58b1adc19a" Name="Diagram1">
+        <EntityTypeShape EntityType="QLBSPhuongNamModel.ChiTietHD" Width="1.5" PointX="5.25" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLBSPhuongNamModel.ChiTietPN" Width="1.5" PointX="5.25" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLBSPhuongNamModel.HoaDon" Width="1.5" PointX="3" PointY="14.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLBSPhuongNamModel.KhachHang" Width="1.5" PointX="0.75" PointY="12.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLBSPhuongNamModel.NgonNgu" Width="1.5" PointX="0.75" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLBSPhuongNamModel.NhaCungCap" Width="1.5" PointX="0.75" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLBSPhuongNamModel.NhanVien" Width="1.5" PointX="0.75" PointY="15.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLBSPhuongNamModel.NhaXuatBan" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLBSPhuongNamModel.PhieuNhap" Width="1.5" PointX="3" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLBSPhuongNamModel.Sach" Width="1.5" PointX="3" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLBSPhuongNamModel.Sach_TG" Width="1.5" PointX="5.25" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLBSPhuongNamModel.TacGia" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLBSPhuongNamModel.TheLoai" Width="1.5" PointX="0.75" PointY="7.25" IsExpanded="true" />
+        <AssociationConnector Association="QLBSPhuongNamModel.FK__ChiTietHD__MaHD__4F7CD00D" ManuallyRouted="false" />
+        <AssociationConnector Association="QLBSPhuongNamModel.FK__ChiTietHD__MaSac__5070F446" ManuallyRouted="false" />
+        <AssociationConnector Association="QLBSPhuongNamModel.FK__ChiTietPN__MaPN__5812160E" ManuallyRouted="false" />
+        <AssociationConnector Association="QLBSPhuongNamModel.FK__ChiTietPN__MaSac__59063A47" ManuallyRouted="false" />
+        <AssociationConnector Association="QLBSPhuongNamModel.FK__HoaDon__MaKH__4BAC3F29" ManuallyRouted="false" />
+        <AssociationConnector Association="QLBSPhuongNamModel.FK__HoaDon__MaNV__4CA06362" ManuallyRouted="false" />
+        <AssociationConnector Association="QLBSPhuongNamModel.FK__Sach__MaNN__4222D4EF" ManuallyRouted="false" />
+        <AssociationConnector Association="QLBSPhuongNamModel.FK__PhieuNhap__MaNCC__5535A963" ManuallyRouted="false" />
+        <AssociationConnector Association="QLBSPhuongNamModel.FK__Sach__MaNXB__412EB0B6" ManuallyRouted="false" />
+        <AssociationConnector Association="QLBSPhuongNamModel.FK__Sach__MaTL__403A8C7D" ManuallyRouted="false" />
+        <AssociationConnector Association="QLBSPhuongNamModel.FK__Sach_TG__MaSach__44FF419A" ManuallyRouted="false" />
+        <AssociationConnector Association="QLBSPhuongNamModel.FK__Sach_TG__MaTG__45F365D3" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

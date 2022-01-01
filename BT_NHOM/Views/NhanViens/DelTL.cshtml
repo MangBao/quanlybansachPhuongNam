@@ -1,0 +1,33 @@
+﻿@model BT_NHOM.Models.TheLoai
+
+@{
+    ViewBag.Title = "DelTL";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div id="cart" class="grid__column-12" style="margin-top:20px">
+
+    <h3 style="text-align: center;">Bạn có chắc muốn xóa thể loại @Html.DisplayFor(model => model.TenTL)?</h3>
+    <hr />
+    <div class="form-horizontal" style="display:flex; justify-content:center">
+
+        <div style=" margin-left: 10px; width: 350px;">
+            <label class="form-control">@Html.DisplayNameFor(model => model.MaTL): @Html.DisplayFor(model => model.MaTL)</label>
+            <label class="form-control">@Html.DisplayNameFor(model => model.TenTL): @Html.DisplayFor(model => model.TenTL)</label>
+
+        </div>
+
+    </div>
+    <div class="home-filter grid__row">
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="form-actions no-color">
+                <button type="submit" value="DelTL" class="btn btn--primary">Xóa</button> |
+
+                @Html.ActionLink("Back to List", "IndexTL")
+            </div>
+        }
+    </div>
+</div>

@@ -1,0 +1,38 @@
+﻿@model IEnumerable<BT_NHOM.Models.TacGia>
+
+@{
+    ViewBag.Title = "IndexTG";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    var grid = new WebGrid(Model, canPage: true, defaultSort: "MaTG", rowsPerPage: 5);
+}
+<h1 style="text-align:center">Danh sách tác giả</h1>
+<a href="@Url.Action("CreateTG")" style="margin-top: 20px;" class="price price_color">Thêm tác giả</a>
+
+<table class="table">
+    @grid.GetHtml(
+            tableStyle: "table table-bordered table-hover",
+            headerStyle: "header_table",
+            footerStyle: "grid-footer",
+            fillEmptyRows: true,
+            mode: WebGridPagerModes.Numeric,
+            alternatingRowStyle: "alternatingRowStyle",
+              columns: new[]{
+                grid.Column("STT",format: item => item.WebGrid.Rows.IndexOf(item) + 1 + Math.Round(Convert.ToDouble(grid.TotalRowCount / grid.PageCount) / grid.RowsPerPage) * grid.RowsPerPage * grid.PageIndex),
+                grid.Column("MaTG","Mã tác giả"),
+                grid.Column("TenTG","Tên tác giả"),
+
+                grid.Column("Chức năng", format: @<text>
+
+                <a href="@Url.Action("EditTG", new { id = item.MaTG })" class="edit-btn">
+                    <abbr title="Chỉnh sửa"><img src="~/Assets/Multimedia/edit.png" width="20" height="20" /></abbr>
+                </a>
+                &nbsp;|&nbsp;
+                <a href="@Url.Action("DelTG",
+                                new { id = item.MaTG})" class="edit-btn">
+                    <abbr title="Xóa"><img src="~/Assets/Multimedia/delete.png" width="20" height="20" /></abbr>
+                </a>
+                </text>)
+}
+)
+
+</table>

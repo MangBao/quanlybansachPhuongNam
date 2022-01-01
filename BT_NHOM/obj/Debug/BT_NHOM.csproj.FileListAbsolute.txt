@@ -1,0 +1,893 @@
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\BT_NHOM.dll.config
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\BT_NHOM.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\BT_NHOM.pdb
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\roslyn\csc.exe
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\roslyn\csc.exe.config
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\roslyn\csc.rsp
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\roslyn\csi.exe
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\roslyn\csi.exe.config
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\roslyn\csi.rsp
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\roslyn\System.Collections.Immutable.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\roslyn\System.Reflection.Metadata.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\roslyn\vbc.exe
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\roslyn\vbc.exe.config
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\roslyn\vbc.rsp
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\roslyn\VBCSCompiler.exe
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\roslyn\VBCSCompiler.exe.config
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\Microsoft.Web.Infrastructure.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\System.Web.Helpers.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\System.Web.Mvc.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\System.Web.Razor.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\System.Web.Webpages.Deployment.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\System.Web.Webpages.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\System.Web.Webpages.Razor.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\System.Web.Razor.xml
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\System.Web.Webpages.xml
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\System.Web.Webpages.Deployment.xml
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\System.Web.Webpages.Razor.xml
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\System.Web.Helpers.xml
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\System.Web.Mvc.xml
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Web Application Development\BT_NHOM\BT_NHOM\obj\Debug\BT_NHOM.csproj.CoreCompileInputs.cache
+E:\Web Application Development\BT_NHOM\BT_NHOM\obj\Debug\BT_NHOM.csproj.CopyComplete
+E:\Web Application Development\BT_NHOM\BT_NHOM\obj\Debug\BT_NHOM.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\obj\Debug\BT_NHOM.pdb
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\EntityFramework.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\EntityFramework.SqlServer.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\EntityFramework.xml
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\EntityFramework.SqlServer.xml
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\roslyn\System.Buffers.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\roslyn\System.Memory.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\roslyn\System.Numerics.Vectors.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\PagedList.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\PagedList.Mvc.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\PagedList.xml
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\PagedList.Mvc.xml
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\AutoMapper.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\AutoMapper.xml
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\Microsoft.Configuration.ConfigurationBuilders.Base.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\Microsoft.Configuration.ConfigurationBuilders.Base.xml
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.xml
+E:\Web Application Development\BT_NHOM\BT_NHOM\obj\Debug\BT_NHOM.csproj.AssemblyReference.cache
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\SqlServerTypes\x64\msvcr120.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\SqlServerTypes\x64\SqlServerSpatial140.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\SqlServerTypes\x86\msvcr120.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\SqlServerTypes\x86\SqlServerSpatial140.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\Microsoft.ReportViewer.Common.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\Microsoft.ReportViewer.DataVisualization.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\Microsoft.ReportViewer.Design.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\Microsoft.ReportViewer.WebDesign.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\Microsoft.ReportViewer.WebForms.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\Microsoft.SqlServer.Types.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\EnvDTE.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\Microsoft.VisualStudio.Shell.Interop.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\Microsoft.ReportViewer.WinForms.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\stdole.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\Microsoft.VisualStudio.OLE.Interop.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\Microsoft.VisualStudio.TextManager.Interop.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\Microsoft.MSXML.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\de\Microsoft.ReportViewer.Common.resources.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\es\Microsoft.ReportViewer.Common.resources.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\fr\Microsoft.ReportViewer.Common.resources.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\it\Microsoft.ReportViewer.Common.resources.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\ja\Microsoft.ReportViewer.Common.resources.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\ko\Microsoft.ReportViewer.Common.resources.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\pt\Microsoft.ReportViewer.Common.resources.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\ru\Microsoft.ReportViewer.Common.resources.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\de\Microsoft.ReportViewer.Design.resources.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\es\Microsoft.ReportViewer.Design.resources.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\fr\Microsoft.ReportViewer.Design.resources.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\it\Microsoft.ReportViewer.Design.resources.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\ja\Microsoft.ReportViewer.Design.resources.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\ko\Microsoft.ReportViewer.Design.resources.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\pt\Microsoft.ReportViewer.Design.resources.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\ru\Microsoft.ReportViewer.Design.resources.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\de\Microsoft.ReportViewer.WebDesign.resources.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\es\Microsoft.ReportViewer.WebDesign.resources.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\fr\Microsoft.ReportViewer.WebDesign.resources.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\it\Microsoft.ReportViewer.WebDesign.resources.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\ja\Microsoft.ReportViewer.WebDesign.resources.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\ko\Microsoft.ReportViewer.WebDesign.resources.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\pt\Microsoft.ReportViewer.WebDesign.resources.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\ru\Microsoft.ReportViewer.WebDesign.resources.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\zh-CHS\Microsoft.ReportViewer.WebDesign.resources.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\zh-CHT\Microsoft.ReportViewer.WebDesign.resources.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\de\Microsoft.ReportViewer.WebForms.resources.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\es\Microsoft.ReportViewer.WebForms.resources.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\fr\Microsoft.ReportViewer.WebForms.resources.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\it\Microsoft.ReportViewer.WebForms.resources.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\ja\Microsoft.ReportViewer.WebForms.resources.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\ko\Microsoft.ReportViewer.WebForms.resources.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\pt\Microsoft.ReportViewer.WebForms.resources.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\ru\Microsoft.ReportViewer.WebForms.resources.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\zh-CHS\Microsoft.ReportViewer.WebForms.resources.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\zh-CHT\Microsoft.ReportViewer.WebForms.resources.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\de\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\es\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\fr\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\it\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\ja\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\ko\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\pt\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\ru\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\bin\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Web Application Development\BT_NHOM\BT_NHOM\obj\Debug\RdlCompile.cache
+E:\Web Application Development\BT_NHOM\BT_NHOM\obj\Debug\RdlCompile.compiled
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\SqlServerTypes\x64\msvcr120.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\SqlServerTypes\x86\msvcr120.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\BT_NHOM.dll.config
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\BT_NHOM.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\BT_NHOM.pdb
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\roslyn\csc.exe
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\roslyn\csc.exe.config
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\roslyn\csc.rsp
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\roslyn\csi.exe
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\roslyn\csi.exe.config
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\roslyn\csi.rsp
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\roslyn\System.Buffers.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\roslyn\System.Memory.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\roslyn\System.Numerics.Vectors.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\roslyn\vbc.exe
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\roslyn\vbc.exe.config
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\roslyn\vbc.rsp
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\roslyn\VBCSCompiler.exe
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\AutoMapper.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\EntityFramework.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\EntityFramework.SqlServer.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\Microsoft.Configuration.ConfigurationBuilders.Base.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\Microsoft.ReportViewer.Common.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\Microsoft.ReportViewer.Design.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\Microsoft.ReportViewer.WebDesign.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\Microsoft.ReportViewer.WebForms.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\Microsoft.SqlServer.Types.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\PagedList.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\PagedList.Mvc.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\System.Web.Helpers.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\System.Web.Mvc.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\System.Web.Razor.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\System.Web.Webpages.Deployment.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\System.Web.Webpages.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\System.Web.Webpages.Razor.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\EnvDTE.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\Microsoft.ReportViewer.WinForms.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\stdole.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\Microsoft.MSXML.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\AutoMapper.xml
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\EntityFramework.xml
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\EntityFramework.SqlServer.xml
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\Microsoft.Configuration.ConfigurationBuilders.Base.xml
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.xml
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\PagedList.xml
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\PagedList.Mvc.xml
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\System.Web.Razor.xml
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\System.Web.Webpages.xml
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\System.Web.Webpages.Deployment.xml
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\System.Web.Webpages.Razor.xml
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\System.Web.Helpers.xml
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\System.Web.Mvc.xml
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\de\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\es\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\fr\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\it\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\ja\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\ko\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\pt\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\ru\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\zh-CHS\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\zh-CHT\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\de\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\es\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\fr\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\it\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\ja\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\ko\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\pt\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\ru\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\zh-CHS\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\zh-CHT\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\bin\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\obj\Debug\BT_NHOM.csprojAssemblyReference.cache
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\obj\Debug\RdlCompile.cache
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\obj\Debug\RdlCompile.compiled
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\obj\Debug\BT_NHOM.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\obj\Debug\BT_NHOM.csproj.CopyComplete
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\obj\Debug\BT_NHOM.dll
+C:\Users\ASUS\OneDrive\Máy tính\New folder (2)\New folder\BT_NHOM\obj\Debug\BT_NHOM.pdb
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\SqlServerTypes\x64\msvcr120.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\SqlServerTypes\x64\SqlServerSpatial140.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\SqlServerTypes\x86\msvcr120.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\SqlServerTypes\x86\SqlServerSpatial140.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\BT_NHOM.dll.config
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\BT_NHOM.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\BT_NHOM.pdb
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\roslyn\csc.exe
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\roslyn\csc.exe.config
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\roslyn\csc.rsp
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\roslyn\csi.exe
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\roslyn\csi.exe.config
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\roslyn\csi.rsp
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\roslyn\System.Buffers.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\roslyn\System.Collections.Immutable.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\roslyn\System.Memory.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\roslyn\System.Numerics.Vectors.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\roslyn\System.Reflection.Metadata.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\roslyn\vbc.exe
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\roslyn\vbc.exe.config
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\roslyn\vbc.rsp
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\roslyn\VBCSCompiler.exe
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\roslyn\VBCSCompiler.exe.config
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\AutoMapper.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\EntityFramework.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\EntityFramework.SqlServer.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\Microsoft.Configuration.ConfigurationBuilders.Base.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\Microsoft.ReportViewer.Common.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\Microsoft.ReportViewer.DataVisualization.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\Microsoft.ReportViewer.Design.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\Microsoft.ReportViewer.WebDesign.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\Microsoft.ReportViewer.WebForms.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\Microsoft.SqlServer.Types.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\Microsoft.Web.Infrastructure.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\PagedList.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\PagedList.Mvc.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\System.Web.Helpers.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\System.Web.Mvc.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\System.Web.Razor.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\System.Web.Webpages.Deployment.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\System.Web.Webpages.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\System.Web.Webpages.Razor.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\EnvDTE.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\Microsoft.VisualStudio.Shell.Interop.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\Microsoft.ReportViewer.WinForms.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\stdole.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\Microsoft.VisualStudio.OLE.Interop.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\Microsoft.VisualStudio.TextManager.Interop.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\Microsoft.MSXML.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\AutoMapper.xml
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\EntityFramework.xml
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\EntityFramework.SqlServer.xml
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\Microsoft.Configuration.ConfigurationBuilders.Base.xml
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.xml
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\PagedList.xml
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\PagedList.Mvc.xml
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\System.Web.Razor.xml
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\System.Web.Webpages.xml
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\System.Web.Webpages.Deployment.xml
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\System.Web.Webpages.Razor.xml
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\System.Web.Helpers.xml
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\System.Web.Mvc.xml
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\de\Microsoft.ReportViewer.Common.resources.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\es\Microsoft.ReportViewer.Common.resources.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\fr\Microsoft.ReportViewer.Common.resources.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\it\Microsoft.ReportViewer.Common.resources.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\ja\Microsoft.ReportViewer.Common.resources.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\ko\Microsoft.ReportViewer.Common.resources.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\pt\Microsoft.ReportViewer.Common.resources.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\ru\Microsoft.ReportViewer.Common.resources.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\de\Microsoft.ReportViewer.Design.resources.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\es\Microsoft.ReportViewer.Design.resources.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\fr\Microsoft.ReportViewer.Design.resources.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\it\Microsoft.ReportViewer.Design.resources.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\ja\Microsoft.ReportViewer.Design.resources.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\ko\Microsoft.ReportViewer.Design.resources.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\pt\Microsoft.ReportViewer.Design.resources.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\ru\Microsoft.ReportViewer.Design.resources.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\de\Microsoft.ReportViewer.WebDesign.resources.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\es\Microsoft.ReportViewer.WebDesign.resources.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\fr\Microsoft.ReportViewer.WebDesign.resources.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\it\Microsoft.ReportViewer.WebDesign.resources.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\ja\Microsoft.ReportViewer.WebDesign.resources.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\ko\Microsoft.ReportViewer.WebDesign.resources.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\pt\Microsoft.ReportViewer.WebDesign.resources.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\ru\Microsoft.ReportViewer.WebDesign.resources.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\zh-CHS\Microsoft.ReportViewer.WebDesign.resources.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\zh-CHT\Microsoft.ReportViewer.WebDesign.resources.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\de\Microsoft.ReportViewer.WebForms.resources.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\es\Microsoft.ReportViewer.WebForms.resources.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\fr\Microsoft.ReportViewer.WebForms.resources.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\it\Microsoft.ReportViewer.WebForms.resources.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\ja\Microsoft.ReportViewer.WebForms.resources.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\ko\Microsoft.ReportViewer.WebForms.resources.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\pt\Microsoft.ReportViewer.WebForms.resources.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\ru\Microsoft.ReportViewer.WebForms.resources.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\zh-CHS\Microsoft.ReportViewer.WebForms.resources.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\zh-CHT\Microsoft.ReportViewer.WebForms.resources.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\de\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\es\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\fr\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\it\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\ja\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\ko\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\pt\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\ru\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\bin\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\obj\Debug\BT_NHOM.csproj.AssemblyReference.cache
+E:\Web Application Development\webmoinhat\BT_NHOM\obj\Debug\RdlCompile.cache
+E:\Web Application Development\webmoinhat\BT_NHOM\obj\Debug\RdlCompile.compiled
+E:\Web Application Development\webmoinhat\BT_NHOM\obj\Debug\BT_NHOM.csproj.CoreCompileInputs.cache
+E:\Web Application Development\webmoinhat\BT_NHOM\obj\Debug\BT_NHOM.csproj.CopyComplete
+E:\Web Application Development\webmoinhat\BT_NHOM\obj\Debug\BT_NHOM.dll
+E:\Web Application Development\webmoinhat\BT_NHOM\obj\Debug\BT_NHOM.pdb
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\SqlServerTypes\x64\msvcr120.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\SqlServerTypes\x86\msvcr120.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\BT_NHOM.dll.config
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\BT_NHOM.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\BT_NHOM.pdb
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\roslyn\csc.exe
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\roslyn\csc.exe.config
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\roslyn\csc.rsp
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\roslyn\csi.exe
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\roslyn\csi.exe.config
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\roslyn\csi.rsp
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\roslyn\System.Buffers.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\roslyn\System.Memory.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\roslyn\System.Numerics.Vectors.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\roslyn\vbc.exe
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\roslyn\vbc.exe.config
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\roslyn\vbc.rsp
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\roslyn\VBCSCompiler.exe
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\AutoMapper.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\EntityFramework.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\EntityFramework.SqlServer.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\Microsoft.Configuration.ConfigurationBuilders.Base.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\Microsoft.ReportViewer.Common.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\Microsoft.ReportViewer.Design.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\Microsoft.ReportViewer.WebDesign.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\Microsoft.ReportViewer.WebForms.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\Microsoft.SqlServer.Types.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\PagedList.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\PagedList.Mvc.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\System.Web.Helpers.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\System.Web.Mvc.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\System.Web.Razor.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\System.Web.Webpages.Deployment.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\System.Web.Webpages.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\System.Web.Webpages.Razor.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\EnvDTE.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\Microsoft.ReportViewer.WinForms.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\stdole.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\Microsoft.MSXML.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\AutoMapper.xml
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\EntityFramework.xml
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\EntityFramework.SqlServer.xml
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\Microsoft.Configuration.ConfigurationBuilders.Base.xml
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.xml
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\PagedList.xml
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\PagedList.Mvc.xml
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\System.Web.Razor.xml
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\System.Web.Webpages.xml
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\System.Web.Webpages.Deployment.xml
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\System.Web.Webpages.Razor.xml
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\System.Web.Helpers.xml
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\System.Web.Mvc.xml
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\de\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\es\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\fr\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\it\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\ja\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\ko\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\pt\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\ru\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\zh-CHS\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\zh-CHT\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\de\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\es\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\fr\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\it\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\ja\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\ko\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\pt\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\ru\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\zh-CHS\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\zh-CHT\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\bin\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\obj\Debug\BT_NHOM.csprojAssemblyReference.cache
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\obj\Debug\RdlCompile.cache
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\obj\Debug\RdlCompile.compiled
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\obj\Debug\BT_NHOM.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\obj\Debug\BT_NHOM.csproj.CopyComplete
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\obj\Debug\BT_NHOM.dll
+C:\Users\ASUS\OneDrive\Máy tính\BaoCaoWeb\web\BT_NHOM\obj\Debug\BT_NHOM.pdb
+E:\Web Application Development\web1748\web\BT_NHOM\bin\SqlServerTypes\x64\msvcr120.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\SqlServerTypes\x64\SqlServerSpatial140.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\SqlServerTypes\x86\msvcr120.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\SqlServerTypes\x86\SqlServerSpatial140.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\BT_NHOM.dll.config
+E:\Web Application Development\web1748\web\BT_NHOM\bin\BT_NHOM.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\BT_NHOM.pdb
+E:\Web Application Development\web1748\web\BT_NHOM\bin\roslyn\csc.exe
+E:\Web Application Development\web1748\web\BT_NHOM\bin\roslyn\csc.exe.config
+E:\Web Application Development\web1748\web\BT_NHOM\bin\roslyn\csc.rsp
+E:\Web Application Development\web1748\web\BT_NHOM\bin\roslyn\csi.exe
+E:\Web Application Development\web1748\web\BT_NHOM\bin\roslyn\csi.exe.config
+E:\Web Application Development\web1748\web\BT_NHOM\bin\roslyn\csi.rsp
+E:\Web Application Development\web1748\web\BT_NHOM\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Web Application Development\web1748\web\BT_NHOM\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Web Application Development\web1748\web\BT_NHOM\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Web Application Development\web1748\web\BT_NHOM\bin\roslyn\System.Buffers.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\roslyn\System.Collections.Immutable.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\roslyn\System.Memory.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\roslyn\System.Numerics.Vectors.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\roslyn\System.Reflection.Metadata.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\roslyn\vbc.exe
+E:\Web Application Development\web1748\web\BT_NHOM\bin\roslyn\vbc.exe.config
+E:\Web Application Development\web1748\web\BT_NHOM\bin\roslyn\vbc.rsp
+E:\Web Application Development\web1748\web\BT_NHOM\bin\roslyn\VBCSCompiler.exe
+E:\Web Application Development\web1748\web\BT_NHOM\bin\roslyn\VBCSCompiler.exe.config
+E:\Web Application Development\web1748\web\BT_NHOM\bin\AutoMapper.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\EntityFramework.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\EntityFramework.SqlServer.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\Microsoft.Configuration.ConfigurationBuilders.Base.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\Microsoft.ReportViewer.Common.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\Microsoft.ReportViewer.DataVisualization.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\Microsoft.ReportViewer.Design.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\Microsoft.ReportViewer.WebDesign.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\Microsoft.ReportViewer.WebForms.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\Microsoft.SqlServer.Types.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\Microsoft.Web.Infrastructure.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\PagedList.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\PagedList.Mvc.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\System.Web.Helpers.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\System.Web.Mvc.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\System.Web.Razor.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\System.Web.Webpages.Deployment.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\System.Web.Webpages.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\System.Web.Webpages.Razor.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\EnvDTE.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\Microsoft.VisualStudio.Shell.Interop.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\Microsoft.ReportViewer.WinForms.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\stdole.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\Microsoft.VisualStudio.OLE.Interop.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\Microsoft.VisualStudio.TextManager.Interop.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\Microsoft.MSXML.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\AutoMapper.xml
+E:\Web Application Development\web1748\web\BT_NHOM\bin\EntityFramework.xml
+E:\Web Application Development\web1748\web\BT_NHOM\bin\EntityFramework.SqlServer.xml
+E:\Web Application Development\web1748\web\BT_NHOM\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Web Application Development\web1748\web\BT_NHOM\bin\Microsoft.Configuration.ConfigurationBuilders.Base.xml
+E:\Web Application Development\web1748\web\BT_NHOM\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.xml
+E:\Web Application Development\web1748\web\BT_NHOM\bin\PagedList.xml
+E:\Web Application Development\web1748\web\BT_NHOM\bin\PagedList.Mvc.xml
+E:\Web Application Development\web1748\web\BT_NHOM\bin\System.Web.Razor.xml
+E:\Web Application Development\web1748\web\BT_NHOM\bin\System.Web.Webpages.xml
+E:\Web Application Development\web1748\web\BT_NHOM\bin\System.Web.Webpages.Deployment.xml
+E:\Web Application Development\web1748\web\BT_NHOM\bin\System.Web.Webpages.Razor.xml
+E:\Web Application Development\web1748\web\BT_NHOM\bin\System.Web.Helpers.xml
+E:\Web Application Development\web1748\web\BT_NHOM\bin\System.Web.Mvc.xml
+E:\Web Application Development\web1748\web\BT_NHOM\bin\de\Microsoft.ReportViewer.Common.resources.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\es\Microsoft.ReportViewer.Common.resources.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\fr\Microsoft.ReportViewer.Common.resources.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\it\Microsoft.ReportViewer.Common.resources.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\ja\Microsoft.ReportViewer.Common.resources.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\ko\Microsoft.ReportViewer.Common.resources.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\pt\Microsoft.ReportViewer.Common.resources.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\ru\Microsoft.ReportViewer.Common.resources.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\de\Microsoft.ReportViewer.Design.resources.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\es\Microsoft.ReportViewer.Design.resources.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\fr\Microsoft.ReportViewer.Design.resources.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\it\Microsoft.ReportViewer.Design.resources.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\ja\Microsoft.ReportViewer.Design.resources.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\ko\Microsoft.ReportViewer.Design.resources.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\pt\Microsoft.ReportViewer.Design.resources.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\ru\Microsoft.ReportViewer.Design.resources.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\de\Microsoft.ReportViewer.WebDesign.resources.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\es\Microsoft.ReportViewer.WebDesign.resources.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\fr\Microsoft.ReportViewer.WebDesign.resources.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\it\Microsoft.ReportViewer.WebDesign.resources.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\ja\Microsoft.ReportViewer.WebDesign.resources.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\ko\Microsoft.ReportViewer.WebDesign.resources.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\pt\Microsoft.ReportViewer.WebDesign.resources.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\ru\Microsoft.ReportViewer.WebDesign.resources.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\zh-CHS\Microsoft.ReportViewer.WebDesign.resources.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\zh-CHT\Microsoft.ReportViewer.WebDesign.resources.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\de\Microsoft.ReportViewer.WebForms.resources.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\es\Microsoft.ReportViewer.WebForms.resources.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\fr\Microsoft.ReportViewer.WebForms.resources.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\it\Microsoft.ReportViewer.WebForms.resources.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\ja\Microsoft.ReportViewer.WebForms.resources.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\ko\Microsoft.ReportViewer.WebForms.resources.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\pt\Microsoft.ReportViewer.WebForms.resources.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\ru\Microsoft.ReportViewer.WebForms.resources.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\zh-CHS\Microsoft.ReportViewer.WebForms.resources.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\zh-CHT\Microsoft.ReportViewer.WebForms.resources.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\de\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\es\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\fr\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\it\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\ja\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\ko\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\pt\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\ru\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Web Application Development\web1748\web\BT_NHOM\bin\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Web Application Development\web1748\web\BT_NHOM\obj\Debug\BT_NHOM.csproj.AssemblyReference.cache
+E:\Web Application Development\web1748\web\BT_NHOM\obj\Debug\RdlCompile.cache
+E:\Web Application Development\web1748\web\BT_NHOM\obj\Debug\RdlCompile.compiled
+E:\Web Application Development\web1748\web\BT_NHOM\obj\Debug\BT_NHOM.csproj.CoreCompileInputs.cache
+E:\Web Application Development\web1748\web\BT_NHOM\obj\Debug\BT_NHOM.csproj.CopyComplete
+E:\Web Application Development\web1748\web\BT_NHOM\obj\Debug\BT_NHOM.dll
+E:\Web Application Development\web1748\web\BT_NHOM\obj\Debug\BT_NHOM.pdb
+E:\Web Application Development\web1748\BT_NHOM\bin\SqlServerTypes\x64\msvcr120.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\SqlServerTypes\x64\SqlServerSpatial140.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\SqlServerTypes\x86\msvcr120.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\SqlServerTypes\x86\SqlServerSpatial140.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\BT_NHOM.dll.config
+E:\Web Application Development\web1748\BT_NHOM\bin\BT_NHOM.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\BT_NHOM.pdb
+E:\Web Application Development\web1748\BT_NHOM\bin\roslyn\csc.exe
+E:\Web Application Development\web1748\BT_NHOM\bin\roslyn\csc.exe.config
+E:\Web Application Development\web1748\BT_NHOM\bin\roslyn\csc.rsp
+E:\Web Application Development\web1748\BT_NHOM\bin\roslyn\csi.exe
+E:\Web Application Development\web1748\BT_NHOM\bin\roslyn\csi.exe.config
+E:\Web Application Development\web1748\BT_NHOM\bin\roslyn\csi.rsp
+E:\Web Application Development\web1748\BT_NHOM\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Web Application Development\web1748\BT_NHOM\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Web Application Development\web1748\BT_NHOM\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Web Application Development\web1748\BT_NHOM\bin\roslyn\System.Buffers.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\roslyn\System.Collections.Immutable.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\roslyn\System.Memory.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\roslyn\System.Numerics.Vectors.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\roslyn\System.Reflection.Metadata.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\roslyn\vbc.exe
+E:\Web Application Development\web1748\BT_NHOM\bin\roslyn\vbc.exe.config
+E:\Web Application Development\web1748\BT_NHOM\bin\roslyn\vbc.rsp
+E:\Web Application Development\web1748\BT_NHOM\bin\roslyn\VBCSCompiler.exe
+E:\Web Application Development\web1748\BT_NHOM\bin\roslyn\VBCSCompiler.exe.config
+E:\Web Application Development\web1748\BT_NHOM\bin\AutoMapper.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\EntityFramework.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\EntityFramework.SqlServer.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\Microsoft.Configuration.ConfigurationBuilders.Base.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\Microsoft.ReportViewer.Common.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\Microsoft.ReportViewer.DataVisualization.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\Microsoft.ReportViewer.Design.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\Microsoft.ReportViewer.WebDesign.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\Microsoft.ReportViewer.WebForms.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\Microsoft.SqlServer.Types.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\Microsoft.Web.Infrastructure.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\PagedList.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\PagedList.Mvc.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\System.Web.Helpers.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\System.Web.Mvc.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\System.Web.Razor.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\System.Web.Webpages.Deployment.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\System.Web.Webpages.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\System.Web.Webpages.Razor.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\EnvDTE.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\Microsoft.VisualStudio.Shell.Interop.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\Microsoft.ReportViewer.WinForms.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\stdole.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\Microsoft.VisualStudio.OLE.Interop.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\Microsoft.VisualStudio.TextManager.Interop.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\Microsoft.MSXML.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\AutoMapper.xml
+E:\Web Application Development\web1748\BT_NHOM\bin\EntityFramework.xml
+E:\Web Application Development\web1748\BT_NHOM\bin\EntityFramework.SqlServer.xml
+E:\Web Application Development\web1748\BT_NHOM\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Web Application Development\web1748\BT_NHOM\bin\Microsoft.Configuration.ConfigurationBuilders.Base.xml
+E:\Web Application Development\web1748\BT_NHOM\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.xml
+E:\Web Application Development\web1748\BT_NHOM\bin\PagedList.xml
+E:\Web Application Development\web1748\BT_NHOM\bin\PagedList.Mvc.xml
+E:\Web Application Development\web1748\BT_NHOM\bin\System.Web.Razor.xml
+E:\Web Application Development\web1748\BT_NHOM\bin\System.Web.Webpages.xml
+E:\Web Application Development\web1748\BT_NHOM\bin\System.Web.Webpages.Deployment.xml
+E:\Web Application Development\web1748\BT_NHOM\bin\System.Web.Webpages.Razor.xml
+E:\Web Application Development\web1748\BT_NHOM\bin\System.Web.Helpers.xml
+E:\Web Application Development\web1748\BT_NHOM\bin\System.Web.Mvc.xml
+E:\Web Application Development\web1748\BT_NHOM\bin\de\Microsoft.ReportViewer.Common.resources.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\es\Microsoft.ReportViewer.Common.resources.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\fr\Microsoft.ReportViewer.Common.resources.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\it\Microsoft.ReportViewer.Common.resources.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\ja\Microsoft.ReportViewer.Common.resources.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\ko\Microsoft.ReportViewer.Common.resources.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\pt\Microsoft.ReportViewer.Common.resources.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\ru\Microsoft.ReportViewer.Common.resources.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\de\Microsoft.ReportViewer.Design.resources.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\es\Microsoft.ReportViewer.Design.resources.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\fr\Microsoft.ReportViewer.Design.resources.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\it\Microsoft.ReportViewer.Design.resources.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\ja\Microsoft.ReportViewer.Design.resources.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\ko\Microsoft.ReportViewer.Design.resources.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\pt\Microsoft.ReportViewer.Design.resources.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\ru\Microsoft.ReportViewer.Design.resources.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\de\Microsoft.ReportViewer.WebDesign.resources.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\es\Microsoft.ReportViewer.WebDesign.resources.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\fr\Microsoft.ReportViewer.WebDesign.resources.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\it\Microsoft.ReportViewer.WebDesign.resources.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\ja\Microsoft.ReportViewer.WebDesign.resources.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\ko\Microsoft.ReportViewer.WebDesign.resources.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\pt\Microsoft.ReportViewer.WebDesign.resources.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\ru\Microsoft.ReportViewer.WebDesign.resources.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\zh-CHS\Microsoft.ReportViewer.WebDesign.resources.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\zh-CHT\Microsoft.ReportViewer.WebDesign.resources.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\de\Microsoft.ReportViewer.WebForms.resources.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\es\Microsoft.ReportViewer.WebForms.resources.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\fr\Microsoft.ReportViewer.WebForms.resources.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\it\Microsoft.ReportViewer.WebForms.resources.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\ja\Microsoft.ReportViewer.WebForms.resources.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\ko\Microsoft.ReportViewer.WebForms.resources.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\pt\Microsoft.ReportViewer.WebForms.resources.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\ru\Microsoft.ReportViewer.WebForms.resources.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\zh-CHS\Microsoft.ReportViewer.WebForms.resources.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\zh-CHT\Microsoft.ReportViewer.WebForms.resources.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\de\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\es\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\fr\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\it\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\ja\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\ko\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\pt\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\ru\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Web Application Development\web1748\BT_NHOM\bin\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Web Application Development\web1748\BT_NHOM\obj\Debug\BT_NHOM.csproj.AssemblyReference.cache
+E:\Web Application Development\web1748\BT_NHOM\obj\Debug\RdlCompile.cache
+E:\Web Application Development\web1748\BT_NHOM\obj\Debug\RdlCompile.compiled
+E:\Web Application Development\web1748\BT_NHOM\obj\Debug\BT_NHOM.csproj.CoreCompileInputs.cache
+E:\Web Application Development\web1748\BT_NHOM\obj\Debug\BT_NHOM.dll
+E:\Web Application Development\web1748\BT_NHOM\obj\Debug\BT_NHOM.pdb

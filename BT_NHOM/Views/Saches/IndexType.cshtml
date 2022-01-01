@@ -1,0 +1,79 @@
+﻿@*@model IEnumerable<BT_NHOM.Models.Sach>*@
+@*@model PagedList.IPagedList<BT_NHOM.Models.Sach>*@
+@using PagedList.Mvc;
+@model  BT_NHOM.Models.ViewModels
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_ContainerLayout.cshtml";
+}
+<div style="color:tomato; font-weight:600; font-size: 2.8rem;">
+    Thể loại: @ViewBag.Type
+</div>
+<div class="home-filter grid__row">
+    @foreach (var item in Model.Saches)
+    {
+        <div class="card grid__column-3 p-0 s_mobile">
+            <div class="bg-image hover-overlay ripple p-0 m-1" data-mdb-ripple-color="light">
+                <a class="mask_hover" href="@Url.Action("Details","Saches", new { id = item.MaSach })">
+                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)">
+                        <img width="100%" src="~/Assets/Multimedia/@Html.DisplayFor(modelItem => item.AnhBia)" class="img-fluid is_mobile" />
+                    </div>
+                </a>
+            </div>
+            <div class="card-body" style="cursor: default">
+                <h3 class="card-title">@Html.DisplayFor(modelItem => item.TenSach)</h3>
+                <p class="card-text">
+                    @Html.DisplayFor(modelItem => item.MoTa)
+                </p>
+
+            </div>
+            @*<div class="card-body" style="cursor: default">
+                <p class="card-text">
+                    Còn: @Html.DisplayFor(modelItem => item.SoLuongTon) quyển
+                </p>
+            </div>*@
+
+            <div style="display: flex; justify-content:space-between; align-items: flex-end">
+                @*<a style=" width:20%" href="" class="price price_color">Mua ngay</a>*@
+                @using (Html.BeginForm("ThemGioHang", "GioHang", new { @Ma = item.MaSach, @strURL = Request.Url.ToString() }))
+                {
+                    <button type="submit" class="price price_color" style="margin-top:1%">Thêm vào <i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                }
+                <p class="price_color" style=" text-align: center; width: 30%; border-radius: 4px; cursor: default">
+                    @Html.DisplayFor(modelItem => item.GiaSach)
+                </p>
+            </div>
+        </div>
+    }
+
+</div>
+<style>
+    .separate{
+        padding: 5px;
+    }
+    #pag li {
+        margin-left: 5px;
+    }
+</style>
+<div class="mt-4">
+    <nav aria-label="Page navigation example mx-auto d-flex">
+
+        <ul class="pagination justify-content-center">
+            @*<li class="page-item">
+                    <a class="page-link" href="#" aria-label="Previous">
+                        <span aria-hidden="true">«</span>
+                    </a>
+                </li>
+                <li class="page-item"><a class="page-link" href="">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Next">
+                        <span aria-hidden="true">»</span>
+                    </a>
+                </li>*@
+
+            @Html.PagedListPager(Model.Saches, page => Url.Action("IndexType", new { page, @class="separate" }))
+        </ul>
+    </nav>
+</div>

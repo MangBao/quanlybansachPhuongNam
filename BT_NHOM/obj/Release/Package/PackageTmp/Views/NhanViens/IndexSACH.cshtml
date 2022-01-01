@@ -1,0 +1,44 @@
+﻿@model IEnumerable<BT_NHOM.Models.Sach>
+
+@{
+    ViewBag.Title = "IndexSACH";
+    Layout = "~/Views/Shared/_LayoutNhanVien.cshtml";
+    var grid = new WebGrid(Model, canPage: true, defaultSort: "MaSach", rowsPerPage: 5);
+}
+
+<a href="@Url.Action("CreateSACH")" style="margin-top: 20px;" class="price price_color">Thêm sách</a>
+
+<table class="table">
+    @grid.GetHtml(
+            tableStyle: "table table-bordered table-hover",
+            headerStyle: "header_table",
+            footerStyle: "grid-footer",
+            fillEmptyRows: true,
+            mode: WebGridPagerModes.Numeric,
+            alternatingRowStyle: "alternatingRowStyle",
+              columns: new[]{
+                grid.Column("STT",format: item => item.WebGrid.Rows.IndexOf(item) + 1 + Math.Round(Convert.ToDouble(grid.TotalRowCount / grid.PageCount) / grid.RowsPerPage) * grid.RowsPerPage * grid.PageIndex),
+                grid.Column("MaSach","Mã sách"),
+                grid.Column("TenSach","Tên sách"),
+                grid.Column("TenTG", "Tên tác giả"),
+                grid.Column("NgayXB","Ngày xuất bản",format:@<text> @item.NgayXB.ToString("dd/MM/yyyy")</text>),
+                grid.Column("SoLuongTon", "Số lượng tồn"),
+                grid.Column("GiaSach", "Giá sách"),
+                grid.Column("AnhBia","Ảnh bìa"),
+                grid.Column("TheLoai.TenTL", "Thể loại"),
+                grid.Column("NgonNgu.TenNN", "Ngôn ngữ"),
+                grid.Column("NhaXuatBan.TenNXB", "Nhà xuất bản"),
+                 //the model fields to display
+                
+                grid.Column("Chức năng", format: @<text>
+
+                    <a href="@Url.Action("EditSACH",
+                                new { id = item.MaSach })" class="edit-btn">Chỉnh sửa</a>&nbsp;|&nbsp;
+                    
+                    <a href="@Url.Action("DelSACH",
+                                new { id = item.MaSach })" class="edit-btn">Xóa sách</a>
+                </text>)
+              }
+          )
+
+</table>

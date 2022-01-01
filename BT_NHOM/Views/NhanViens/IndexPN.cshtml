@@ -1,0 +1,30 @@
+﻿@model IEnumerable<BT_NHOM.Models.ChiTietPN>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    var grid = new WebGrid(Model, canPage: true, defaultSort: "", rowsPerPage: 5);
+}
+
+<h1 style="text-align:center">Danh sách phiếu nhập</h1>
+<div id="gridContent">
+    @ViewBag.TB
+    @grid.GetHtml(
+        tableStyle: "table table-bordered table-hover",
+        headerStyle: "header_table",
+        footerStyle: "grid-footer",
+        fillEmptyRows: true,
+        mode: WebGridPagerModes.Numeric,
+        alternatingRowStyle: "alternatingRowStyle",
+        columns: new[]{
+            grid.Column("STT",format: item => item.WebGrid.Rows.IndexOf(item) + 1 + Math.Round(Convert.ToDouble(grid.TotalRowCount / grid.PageCount) / grid.RowsPerPage) * grid.RowsPerPage * grid.PageIndex),
+            grid.Column("MaPN","Mã"),
+            grid.Column("PhieuNhap.NgayNhap","Ngày nhập",format:@<text> @item.PhieuNhap.NgayNhap.ToString("dd/MM/yyyy")</text>),
+            grid.Column("PhieuNhap.MaNCC","Mã nhà cung cấp"),
+            grid.Column("PhieuNhap.NhaCungCap.TenNCC","Tên nhà cung cấp"),
+            grid.Column("Chức năng", format: @<text>
+    <a href="@Url.Action("DetailsPN",new { id1 = item.MaPN, id2 = item.MaSach})" class="edit-btn"><abbr title="Xem chi tiết"><img src="~/Assets/Multimedia/details.png" width="20" height="20" /></abbr></a>&nbsp;&nbsp;
+    <a href="@Url.Action("DelPN",new { id1 = item.MaPN, id2 = item.MaSach})" class="edit-btn"><abbr title="Xóa dữ liệu"><img src="~/Assets/Multimedia/delete.png" width="20" height="20" /></abbr></a>
+            </text>),
+})
+</div>

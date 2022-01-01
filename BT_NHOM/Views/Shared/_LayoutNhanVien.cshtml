@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewBag.Title = "_LayoutNhanVien";
+    Layout = "~/Views/Shared/_LayoutHomePage.cshtml";
+}
+
+<div class="grid">
+    <div class=" app__content">
+        <div id="sort" class="grid__column-12">
+            <div class="home-filter">
+                <a href="@Url.Action("IndexSACH","NhanViens/IndexSACH", null)" class="home-filter__btn btn btn--primary">Sách</a>
+                <a href="@Url.Action("IndexTL","NhanViens/IndexTL", null)" class="home-filter__btn btn btn--primary">Thể loại</a>
+                <a href="@Url.Action("IndeNN","NhanViens/IndexNN", null)" class="home-filter__btn btn btn--primary">Ngôn ngữ</a>
+                <a href="@Url.Action("IndeTG","NhanViens/IndexTG", null)" class="home-filter__btn btn btn--primary">Tác giả</a>
+                <a href="@Url.Action("IndexNCC","NhanViens/IndexNCC", null)" class="home-filter__btn btn btn--primary">Nhà cung cấp</a>
+                <a href="@Url.Action("IndexNXB","NhanViens/IndexNXB", null)" class="home-filter__btn btn btn--primary">Nhà xuất bản</a>
+                <a href="@Url.Action("IndexHD","NhanViens/IndexHD", null)" class="home-filter__btn btn btn--primary">Hóa đơn</a>
+                <a href="@Url.Action("IndexPN","NhanViens/IndexPN", null)" class="home-filter__btn btn btn--primary">Phiếu nhập</a>
+                <a href="@Url.Action("IndexHD","NhanViens/IndexHD", null)" class="home-filter__btn btn btn--primary">Báo cáo</a>
+
+            </div>
+            @RenderBody()
+        </div>
+    </div>
+</div>
+

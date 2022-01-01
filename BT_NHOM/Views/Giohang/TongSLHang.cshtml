@@ -1,0 +1,14 @@
+﻿@{
+    string span = "";
+}
+
+
+<a style="text-decoration: none" href="@Url.Action("GioHang","GioHang")" class="header__cart-wrap gio">
+    <span style="color: white ">Giỏ hàng</span>
+    <i class="header__cart-icon fas fa-cart-plus" aria-hidden="true" style="color:white"></i>
+    @if (ViewBag.TongSoLuong == null)
+    {
+        ViewBag.TongSoLuong = 0;
+    }
+    <span class="header__cart-notice">@ViewBag.TongSoLuong</span>
+</a>

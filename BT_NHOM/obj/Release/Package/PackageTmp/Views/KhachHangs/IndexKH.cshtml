@@ -1,0 +1,112 @@
+﻿@*@model IEnumerable<BT_NHOM.Models.KhachHang>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutHomePage.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ho)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.holot)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ten)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.diaChi)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.soDTKH)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.matKhau)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ho)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.holot)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ten)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.diaChi)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.soDTKH)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.matKhau)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.maKH }) |
+                @Html.ActionLink("Details", "Details", new { id = item.maKH }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.maKH })
+            </td>
+        </tr>
+    }
+
+</table>*@
+
+
+@model IEnumerable<BT_NHOM.Models.KhachHang>
+@using PagedList.Mvc;
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_ContainerLayout.cshtml";
+}
+<div class="home-filter grid__row">
+    @foreach (var item in Model)
+    {
+        <div class="card grid__column-3 p-0 " style="height:460px;width:270px;">
+            <div class="bg-image hover-overlay ripple p-0 m-1" data-mdb-ripple-color="light">
+                <a class="mask_hover" href="@Url.Action("ThanhToan","ThanhToan", new { id = item.MaKH })">
+                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)">
+                        <img width="100%" src="~/Assets/Multimedia/" class="img-fluid" style="height:260px;" />
+                    </div>
+                </a>
+            </div>
+            <div class="card-body" style="cursor: default">
+                <h2 class="card-title">@Html.DisplayFor(modelItem => item.Ho) @Html.DisplayFor(modelItem => item.Holot) @Html.DisplayFor(modelItem => item.Ten)</h2>
+                <p class="card-text">
+                    @Html.DisplayFor(modelItem => item.DiaChi)
+                </p>
+
+            </div>
+            <div class="card-body" style="cursor: default">
+                <p class="card-text">
+                    SĐT: @Html.DisplayFor(modelItem => item.SoDTKH)
+                </p>
+            </div>
+
+            <div style="display: flex; justify-content:space-between; align-items: flex-end">
+                <a style=" width:20%" href="" class="price price_color">Chỉnh sửa</a>
+                @*<p class="price_color" style=" text-align: center; width: 30%; border-radius: 4px; cursor: default">
+                    @Html.DisplayFor(modelItem => item.giaBia)
+                </p>*@
+            </div>
+        </div>
+    }
+</div>

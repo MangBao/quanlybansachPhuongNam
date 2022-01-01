@@ -1,0 +1,70 @@
+﻿@model BT_NHOM.Models.NhaCungCap
+
+@{
+    ViewBag.Title = "EditNCC";
+    Layout = "~/Views/Shared/_LayoutHomePage.cshtml";
+}
+<div id="cart" class="grid__column-12">
+    <div class="home-filter grid__row">
+        @using (Html.BeginForm("EditNCC", "Nhanviens", FormMethod.Post, new { @style = "margin-left: auto; margin-right: auto;", enctype = "multipart/form-data" }))
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="form-horizontal">
+                <hr />
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                @Html.HiddenFor(model => model.MaNCC)
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.MaNCC, htmlAttributes: new { @class = "control-label col-md-4 text-right" })
+                    <div class="col-md-8">
+                        @Html.EditorFor(model => model.MaNCC, new { htmlAttributes = new { @class = "form-control", disable = "disabled", @readonly = "readonly" } })
+                        @Html.ValidationMessageFor(model => model.MaNCC, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.TenNCC, htmlAttributes: new { @class = "control-label col-md-4 text-right" })
+                    <div class="col-md-8">
+                        @Html.EditorFor(model => model.TenNCC, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.TenNCC, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.DiaChiNCC, htmlAttributes: new { @class = "control-label col-md-4 text-right" })
+                    <div class="col-md-8">
+                        @Html.EditorFor(model => model.DiaChiNCC, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.DiaChiNCC, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.SDTNCC, htmlAttributes: new { @class = "control-label col-md-4 text-right" })
+                    <div class="col-md-8">
+                        @Html.EditorFor(model => model.SDTNCC, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.SDTNCC, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+
+
+
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-10">
+                        <input type="submit" value="Save" class="btn btn--primary" />
+                    </div>
+                    <div style="font-size: 1.8rem;">
+                        @Html.ActionLink("Back to List", "IndexNCC")
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+
+
+<script src="~/Scripts/jquery-3.4.1.min.js"></script>
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>

@@ -1,0 +1,23 @@
+﻿@media only screen and (max-width: 768px) {    
+    .header__search-input {
+        width: 85%;
+    }
+    .in4 {
+        font-size: 1.4rem;
+    }
+    #bt_details a{
+        font-size: 1.2rem
+    }
+    .labelMT{
+        font-size: 1.8rem;
+    }
+    .tb_mobile{
+        font-size: 1.1rem;
+    }
+    table .price {
+        font-size: 1.2rem;
+    }
+    .myclass {
+        width:100%;
+    }
+}

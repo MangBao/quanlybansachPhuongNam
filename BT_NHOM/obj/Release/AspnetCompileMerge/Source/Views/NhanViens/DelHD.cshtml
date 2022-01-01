@@ -1,0 +1,41 @@
+﻿@model BT_NHOM.Models.ChiTietHD
+
+@{
+    ViewBag.Title = "DelHD";
+    Layout = "~/Views/Shared/_LayoutHomePage.cshtml";
+}
+
+<div id="cart" class="grid__column-12" style="margin-top:20px">
+
+    <h3 style="text-align: center;">Are you sure you want to delete this?</h3>
+    <hr />
+    <div class="form-horizontal" style="display:flex; justify-content:center">
+
+        <div style=" margin-left: 10px; width: 350px;">
+            <label class="form-control">@Html.DisplayNameFor(model => model.MaHD): @Html.DisplayFor(model => model.MaHD)</label>
+            <label class="form-control">@Html.DisplayNameFor(model => model.HoaDon.MaKH): @Html.DisplayFor(model => model.HoaDon.MaKH)</label>
+            <label class="form-control">
+                @Html.DisplayNameFor(model => model.HoaDon.KhachHang.Ten):
+                @Html.DisplayFor(model => model.HoaDon.KhachHang.Ho) @Html.DisplayFor(model => model.HoaDon.KhachHang.Holot) @Html.DisplayFor(model => model.HoaDon.KhachHang.Ten)
+            </label>
+            <label class="form-control">@Html.DisplayNameFor(model => model.MaSach): @Html.DisplayFor(model => model.MaSach)</label>
+            <label class="form-control">@Html.DisplayNameFor(model => model.Sach.TenSach): @Html.DisplayFor(model => model.Sach.TenSach)</label>
+
+            <label class="form-control" for="">@Html.DisplayNameFor(model => model.Sach.TenTG): @Html.DisplayFor(model => model.Sach.TenTG)</label>
+            <label class="form-control" for="">@Html.DisplayNameFor(model => model.SoLuongSach): @Html.DisplayFor(model => model.SoLuongSach)</label>
+
+        </div>
+
+    </div>
+    <div class="home-filter grid__row">
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="form-actions no-color">
+                <button type="submit" value="DelHD" class="btn btn--primary">Xóa</button> |
+                @Html.ActionLink("Back to List", "IndexHD")
+            </div>
+        }
+    </div>
+</div>

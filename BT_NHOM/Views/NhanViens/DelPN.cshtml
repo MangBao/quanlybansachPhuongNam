@@ -1,0 +1,122 @@
+﻿@model BT_NHOM.Models.ChiTietPN
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<style>
+    .border_box {
+        border: 1px solid black;
+        border-radius: 5px;
+        box-shadow: 5px 5px #888888;
+        box-sizing: border-box;
+        width: 80%;
+        margin: 15px auto;
+        margin-left: 10%;
+        padding-bottom: 20px;
+    }
+
+    table {
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+        table th,
+        tr,
+        td {
+            padding: 5px;
+        }
+
+    .tab-content {
+        margin-top: 50px;
+    }
+</style>
+<div class="tab-pane ">
+    <h1 style="text-align:center">Bạn có chắc muốn xóa phiếu nhập này?</h1>
+    <div class="row">
+        <div class="border_box col-md-10 offset-md-2">
+            <div class="row" style="text-align: left;">
+                <div class="col-md-12" style="text-align: center;">
+                    <h3><b>Phiếu nhập #<span>@Html.DisplayFor(model => model.MaPN)</span></b></h3>
+                    <p>
+                        (Ngày nhập: <span>
+                            @Html.DisplayFor(model => model.PhieuNhap.NgayNhap)
+                        </span>)
+                    </p>
+                    <h4><b>THÔNG TIN NHÀ CUNG CẤP</b></h4>
+                </div>
+                <div class="col-md-6 col-md-offset-1">
+                    <p>
+                        <b>Mã nhà cung cấp: </b>
+                        <span>
+                            @Html.DisplayFor(model => model.PhieuNhap.MaNCC)
+                        </span>
+                    </p>
+                    <p>
+                        <b>Tên nhà cung cấp: </b>
+                        <span>
+                            @Html.DisplayFor(model => model.PhieuNhap.NhaCungCap.TenNCC)
+                        </span>
+                    </p>
+
+                </div>
+                <div class="col-md-4">
+                    <p>
+                        <b>Địa chỉ: </b>
+                        <span>
+                            @Html.DisplayFor(model => model.PhieuNhap.NhaCungCap.DiaChiNCC)
+                        </span>
+                    </p>
+                    <p>
+                        <b>Số điện thoại: </b>
+                        <span>
+                            @Html.DisplayFor(model => model.PhieuNhap.NhaCungCap.SDTNCC)
+                        </span>
+                    </p>
+                </div>
+                <div class="col-md-12">
+                    <p><b>Sách đã nhập</b></p>
+                    <table border="1">
+                        <tr bgcolor="cyan">
+                            @*<th>STT</th>*@
+                            <th>Mã sách</th>
+                            <th>Tên sách</th>
+                            <th>Số lượng</th>
+                            <th>Giá nhập</th>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(model => model.MaSach)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(model => model.Sach.TenSach)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(model => model.SoLuongNhap)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(model => model.GiaNhap)
+                            </td>
+                        </tr>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<p>
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class=" price price_color" /> |
+            @Html.ActionLink("Back to List", "IndexPN")
+        </div>
+    }
+</p>

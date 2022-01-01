@@ -1,0 +1,35 @@
+﻿@model IEnumerable<BT_NHOM.Models.TheLoai>
+
+@{
+    ViewBag.Title = "IndexTL";
+    Layout = "~/Views/Shared/_LayoutNhanVien.cshtml";
+    var grid = new WebGrid(Model, canPage: true, defaultSort: "MaTL", rowsPerPage: 5);
+}
+
+<a href="@Url.Action("CreateTL")" style="margin-top: 20px;" class="price price_color">Thêm thể loại</a>
+
+<table class="table">
+    @grid.GetHtml(
+            tableStyle: "table table-bordered table-hover",
+            headerStyle: "header_table",
+            footerStyle: "grid-footer",
+            fillEmptyRows: true,
+            mode: WebGridPagerModes.Numeric,
+            alternatingRowStyle: "alternatingRowStyle",
+              columns: new[]{
+                grid.Column("STT",format: item => item.WebGrid.Rows.IndexOf(item) + 1 + Math.Round(Convert.ToDouble(grid.TotalRowCount / grid.PageCount) / grid.RowsPerPage) * grid.RowsPerPage * grid.PageIndex),
+                grid.Column("MaTL","Mã thể loại"),
+                grid.Column("TenTL","Tên thể loại"),
+
+                grid.Column("Chức năng", format: @<text>
+
+                <a href="@Url.Action("EditTL",
+                                            new { id = item.MaTL })" class="edit-btn">Chỉnh sửa</a>
+                @*&nbsp;|&nbsp;
+                    <a href="@Url.Action("DelNXB",
+                                new { id = item.MaNXB})" class="edit-btn">Xóa NXB</a>*@
+                </text>)
+       }
+   )
+
+</table>

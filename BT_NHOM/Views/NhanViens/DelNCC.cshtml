@@ -1,0 +1,34 @@
+﻿@model BT_NHOM.Models.NhaCungCap
+
+@{
+    ViewBag.Title = "DelNCC";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div id="cart" class="grid__column-12" style="margin-top:20px">
+
+    <h3 style="text-align: center;">Bạn có chắc muốn xóa nhà cung cấp @Html.DisplayFor(model => model.TenNCC)?</h3>
+    <hr />
+    <div class="form-horizontal" style="display:flex; justify-content:center">
+
+        <div style=" margin-left: 10px; width: 350px;">
+            <label class="form-control">@Html.DisplayNameFor(model => model.MaNCC): @Html.DisplayFor(model => model.MaNCC)</label>
+            <label class="form-control">@Html.DisplayNameFor(model => model.TenNCC): @Html.DisplayFor(model => model.TenNCC)</label>
+            <label class="form-control">@Html.DisplayNameFor(model => model.DiaChiNCC): @Html.DisplayFor(model => model.DiaChiNCC)</label>
+            <label class="form-control">@Html.DisplayNameFor(model => model.SDTNCC): @Html.DisplayFor(model => model.SDTNCC)</label>
+        </div>
+
+    </div>
+    <div class="home-filter grid__row">
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="form-actions no-color">
+                <button type="submit" value="DelNCC" class="btn btn--primary">Xóa</button> |
+
+                @Html.ActionLink("Back to List", "IndexNCC")
+            </div>
+        }
+    </div>
+</div>

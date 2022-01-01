@@ -1,0 +1,47 @@
+﻿@model BT_NHOM.Models.Sach
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_LayoutHomePage.cshtml";
+}
+<div id="cart" class="grid__column-12 details">
+    <div style="width: 100%; margin:0" class="home-filter_details grid__row_details">
+        <div style="display: flex; justify-content: center">
+            @*<img style="width: 200px; height: 200px; border-radius: 100px; align-self: center; display: flex; margin: auto;" src="~/Assets/Multimedia/@Html.DisplayFor(model => model.AnhBia)" />*@
+            <div>
+                <img style="width: 200px; height: 200px; border-radius: 100px; align-self: center; margin-right: 10px" src="~/Assets/Multimedia/@Html.DisplayFor(model => model.AnhBia)" />
+                <div style="display: flex; align-items: flex-end;">
+                    @using (Html.BeginForm("ThemGioHang", "GioHang", new { @Ma = Model.MaSach, @strURL = Request.Url.ToString() }))
+                    {
+                        <button id="Them" type="submit" class="price price_color" style="margin-top:1%" onclick="openWin()">Thêm vào <i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                    }
+                    &nbsp;
+                    <script language="javascript">
+                        var button = document.getElementById("Them");
+                        button.onclick = function () {
+                            alert("Thêm vào giỏ thành công!");
+                        }
+                    </script>
+                    <!--<form id="bt_details">-->
+                    @*<button class="price price_color" style="margin-right: 10px">@Html.ActionLink("", "", new { id = Model.MaSach })Thêm vào giỏ hàng</button>*@
+                    @using (Html.BeginForm())
+                    {
+                        <button class="price price_color"><a style="text-decoration:none; color: white" href="@Url.Action("Index","Saches")">Back to list</a></button>
+                    }
+                    <!--</form>-->
+                </div>
+            </div>
+            <div class="in4" style=" margin-left: 10px; width: 350px;">
+                <label class="">Tên sách: @Html.DisplayFor(model => model.TenSach)</label><br />
+                <label class="">Tên tác giả: @Html.DisplayFor(model => model.TenTG)</label><br />
+                <label class="" for="">Ngày xuất bản: @Html.DisplayFor(model => model.NgayXB)</label><br />
+                <label class="" for="">Số lượng tồn: @Html.DisplayFor(model => model.SoLuongTon)</label> <br />
+                @*<label class="form-control">Ngày sinh: @Html.DisplayFor(model => model.MoTa)</label>*@
+                <label class="" for="">Ngôn ngữ: @Html.DisplayFor(model => model.NgonNgu.TenNN)</label><br />
+                <label class="" for="">Nhà xuất bản: @Html.DisplayFor(model => model.NhaXuatBan.TenNXB)</label><br />
+                <label class="" for="">Thể loại: @Html.DisplayFor(model => model.TheLoai.TenTL)</label>
+            </div>
+        </div>
+        <label class="" style="display: flex; justify-content: center;">Mô tả: @Html.DisplayFor(model => model.MoTa)</label>
+    </div>
+</div>

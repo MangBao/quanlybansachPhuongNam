@@ -1,0 +1,131 @@
+﻿
+@using BT_NHOM.Models
+
+@{
+    ViewBag.Title = "In";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    string id = ViewBag.id;
+    QLBSPhuongNamEntities db = new QLBSPhuongNamEntities();
+    var hd = db.HoaDons.SingleOrDefault(m => m.MaHD == id);
+
+    var listCT = db.ChiTietHDs.Where(m => m.MaHD == id);
+
+    var grid = new WebGrid(listCT, canPage: true, defaultSort: "MaHD", rowsPerPage: 5);
+    int tongtien = 0;
+}
+
+<style>
+    .invoice {
+        border: 1px solid black;
+        border-radius: 5px;
+        box-shadow: 5px 5px #888888;
+        box-sizing: border-box;
+        width: 80%;
+        margin: 15px auto;
+        margin-left: 10%;
+        padding-bottom: 20px;
+    }
+
+    table {
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    
+
+        table th,
+        tr,
+        td {
+            padding: 5px;
+        }
+
+    .tab-content {
+        margin-top: 50px;
+    }
+</style>
+<div class="tab-pane">
+    <div class="row">
+        <h1 style="margin-left:auto; margin-right:auto">Thông tin chi tiết hóa đơn</h1>
+
+        <div class="invoice col-md-10 offset-md-2" style="background: aliceblue;" id="contentPDF">
+            <div class="" style="text-align: left; " >
+                <div class="col-md-12" style="text-align: center;">
+                    <h3 style="margin-top:15px"><b>HÓA ĐƠN #<span>@hd.MaHD</span></b></h3>
+                    <p>
+                        (Ngày bán: <span>
+                            @hd.NgayXuatKho.Value.ToString("dd/MM/yyyy")
+                        </span>)
+                    </p>
+                    <h4><b>THÔNG TIN KHÁCH HÀNG</b></h4>
+                </div>
+                <div style="display: flex; justify-content:space-around;">
+                    <div class="col-md-6 col-md-offset-1">
+
+                        <p>
+                            <b>Tên khách hàng: </b>
+                            <span>
+                                @hd.TenKH
+                            </span>
+                        </p>
+                        <p>
+                            <b>Số điện thoại: </b>
+                            <span>
+                                @hd.SoDT
+                            </span>
+                        </p>
+
+                    </div>
+                    <div class="col-md-4">
+                        <p>
+                            <b>Địa chỉ: </b>
+                            <span>
+                                @hd.DiaChiGiao
+                            </span>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-12" style="margin-top: 8px">
+                    <p><b>Sách đã đặt</b></p>
+                    @ViewBag.TB
+                    @grid.GetHtml(
+                    headerStyle: "header_table",
+                    tableStyle: "table table-bordered table-hover",
+                    footerStyle: "grid-footer",
+                    fillEmptyRows: true,
+                    mode: WebGridPagerModes.Numeric,
+                    alternatingRowStyle: "alternatingRowStyle",
+                    columns: new[]  // colums in grid
+                    {
+                        grid.Column("STT",format: item => item.WebGrid.Rows.IndexOf(item) + 1 + Math.Round(Convert.ToDouble(grid.TotalRowCount / grid.PageCount) / grid.RowsPerPage) * grid.RowsPerPage * grid.PageIndex),
+                        grid.Column("MaSach","Mã sách"),
+                        grid.Column("Sach.TenSach","Tên sách"  ),
+                        grid.Column("Sach.GiaSach","Đơn giá"  ),
+                        grid.Column("SoLuongSach","Số lượng"  ),
+                        grid.Column("Thành tiền", format: item => (int)item.Sach.GiaSach * item.SoLuongSach)
+                    })
+                </div>
+                <div style="margin-left: 50px">
+                    @foreach (var item in listCT)
+                    {
+                        tongtien += item.SoLuongSach * (int)item.Sach.GiaSach;
+                    }
+                    <h3 style="color:red; text-align:center">TỔNG TIỀN: @tongtien.ToString("#,##") đồng</h3>
+                </div>
+
+                @*<input type="submit" value="IN HÓA ĐƠN" style="width:200px; height: 50px; margin-left: 450px; background-color:chocolate">*@
+            </div>
+            <div style="text-align: center">@Html.ActionLink("Quay lại", "IndexHD")</div>
+            <button onclick="demoFromHTML()">Save</button>
+        </div>
+    </div>
+</div>
+<script>
+    function demoFromHTML() {
+        var pdf = new jsPDF('p', 'pt', 'letter');
+        pdf.addHTML($('#contentPDF')[0],5,5,
+            { pagesplit: true, margin: { top: 50, right: 50, bottom: 50, left: 50, useFor: 'page' } },
+            function () {
+            pdf.save('Test.pdf');
+        });
+    }
+</script>

@@ -1,0 +1,138 @@
+﻿@model BT_NHOM.Models.KhachHang
+@{
+    ViewBag.Title = "LoginAndRegister";
+    Layout = "~/Views/Shared/_ContainerLayout.cshtml";
+}
+
+<!-- Modal -->
+@*<div class="modal" id="myModal">
+    <div class="modal__overlay">
+        <div class="modal__body">
+             Register form 
+             <div class="auth-form" id="s_up"></div> 
+            @using (Html.BeginForm("Index", "Saches", FormMethod.Post, new { @class = "auth-form", id = "s_up" }))
+            {
+                @Html.AntiForgeryToken()
+                @Html.ValidationSummary()
+
+                <div class="auth-form__container">
+                    <div class="auth-form__header">
+                        <h3 class="auth__form-heading">Đăng ký</h3>
+                        <span class="auth__form-switch-btn">Đăng nhập</span>
+                    </div>
+
+                    <div class="auth-form__form">
+                        <div class="auth-form__group">
+                             <input type="text" class="auth-form__input" placeholder="Nhập email của bạn"> 
+                            @Html.TextBoxFor(m => m.email, "", new { @class = "auth-form__input", @placeholder = "Nhập email của bạn", @type = "text" })
+                            @Html.ValidationMessageFor(m => m.email, "", new { @class = "badge badge-danger" })
+                            @if (ViewBag.error != null)
+                            {
+                                <span class="badge badge-danger">@ViewBag.error</span>
+                            }
+
+                        </div>
+                        <div class="auth-form__group">
+                            @Html.TextBoxFor(m => m.ho + " " + m.holot, "", new { @class = "auth-form__input", @placeholder = "Nhập họ của bạn" })
+                            @Html.ValidationMessageFor(m => m.ho + " " + m.holot, "", new { @class = "badge badge-danger" })
+                        </div>
+                        <div class="auth-form__group">
+                             <input type="password" class="auth-form__input" placeholder="Nhập mật khẩu của bạn"> 
+                            @Html.TextBoxFor(m => m.matKhau, "", new { @class = "auth-form__input", @placeholder = "Nhập mật khẩu của bạn", @type = "password" })
+                            @Html.ValidationMessageFor(m => m.matKhau, "", new { @class = "badge badge-danger" })
+                        </div>
+                        <div class="auth-form__group">
+                             <input type="password" class="auth-form__input" placeholder="Nhập lại mật khẩu của bạn"> 
+                            @Html.TextBoxFor(m => m.ConfirmPassword, "", new { @class = "auth-form__input", @placeholder = "Nhập lại mật khẩu của bạn", @type = "password" })
+                            @Html.ValidationMessageFor(m => m.ConfirmPassword, "", new { @class = "badge badge-danger" })
+                        </div>
+                    </div>
+
+                    <div class="auth-form__aside">
+                        <p class="auth-form__policy-text">
+                            Bằng việc đăng ký, bạn đã đồng ý với F8-Shop về
+                            <a href="" class="auth-form__text-link">Điều khoản dịch vụ</a> &
+                            <a href="" class="auth-form__text-link">Chính sách bảo mật</a>
+                        </p>
+                    </div>
+
+                    <div class="auth-form__controls">
+                          onclick="document.getElementById('myModal').style.display='none'" 
+                        <button class="bt_log auth-form__controls-back back2">TRỞ LẠI</button>
+                          
+                        <button class="bt_log bt_log-color" type="submit" id="s-up">ĐĂNG KÝ</button>
+                    </div>
+                </div>
+
+                <div class="auth-form__socicals">
+                    <a href="" class="auth-form__socicals--facebook btn btn--size-s btn--with-icon">
+                        <i class="auth-form__socicals-icon fab fa-facebook-square"></i>
+                        <span class="auth-form__socicals-title">
+                            Kết nối với Facebook
+                        </span>
+                    </a>
+                    <a href="" class="auth-form__socicals--google btn btn--size-s btn--with-icon">
+                        <i class="auth-form__socicals-icon fab fa-google"></i>
+                        <span class="auth-form__socicals-title">
+                            Kết nối với Google
+                        </span>
+                    </a>
+                </div>
+            }
+
+             Login form 
+             <div class="auth-form" id="s_in"></div> 
+            @using (Html.BeginForm("Index", "Saches", FormMethod.Post, new { @class = "auth-form", id = "s_in" }))
+            {
+                @Html.AntiForgeryToken()
+                <div class="auth-form__container">
+                    <div class="auth-form__header">
+                        <h3 class="auth__form-heading">Đăng nhập</h3>
+                        <span class="auth__form-switch-btn">Đăng ký</span>
+                    </div>
+
+                    <div class="auth-form__form">
+                        <div class="auth-form__group">
+                            <input type="text" class="auth-form__input" id="a" placeholder="Nhập email của bạn">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" id="b" placeholder="Nhập mật khẩu của bạn">
+                        </div>
+
+                    </div>
+
+                    <div class="auth-form__aside">
+                        <div class="auth-form__help">
+                            <a href="" class="auth-form__link auth-form__help-forgot">Quên mật khẩu</a>
+                            <span class="auth-form__link-separate"></span>
+                            <a href="" class="auth-form__link">Cần trợ giúp?</a>
+                        </div>
+                    </div>
+
+                    <div class="auth-form__controls">
+                         onclick="document.getElementById('myModal').style.display='none'" 
+                        <button class="bt_log  auth-form__controls-back back1">TRỞ LẠI</button>
+                        <button class="bt_log bt_log-color" id="s-in">ĐĂNG NHẬP</button>
+                    </div>
+                </div>
+
+                <div class="auth-form__socicals">
+                    <a href="" class="auth-form__socicals--facebook btn btn--size-s btn--with-icon">
+                        <i class="auth-form__socicals-icon fab fa-facebook-square"></i>
+                        <span class="auth-form__socicals-title">
+                            Kết nối với Facebook
+                        </span>
+                    </a>
+                    <a href="" class="auth-form__socicals--google btn btn--size-s btn--with-icon">
+                        <i class="auth-form__socicals-icon fab fa-google"></i>
+                        <span class="auth-form__socicals-title">
+                            Kết nối với Google
+                        </span>
+                    </a>
+                </div>
+            }
+
+        </div>
+    </div>
+</div>
+*@

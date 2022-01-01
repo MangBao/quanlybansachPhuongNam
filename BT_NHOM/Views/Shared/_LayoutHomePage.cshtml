@@ -1,0 +1,330 @@
+﻿@*@model BT_NHOM.Models.KhachHang*@
+@*@model BT_NHOM.Models.NhanVien*@
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nhà Sách Phương Nam</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="~/Assets/CSS/mmenu-light.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="~/Assets/CSS/baseCss5.css">
+    <link rel="stylesheet" href="~/Assets/CSS/mainCss1.css">
+    <style>
+        .header-bar .price {
+            font-size: 2.4rem;
+        }
+
+        .grid_index {
+            margin-top: 40px;
+        }
+
+        table {
+            font-size: 1.5rem;
+        }
+
+            table td {
+                text-align: center;
+                align-items: center;
+            }
+
+            table th {
+                text-align: center;
+            }
+
+        .form-group {
+            display: flex !important;
+        }
+
+        .grid-footer {
+            color: #000;
+            text-align: center;
+            font-weight: bold;
+        }
+
+            .grid-footer a {
+                background-color: #fefeff;
+                color: blue;
+                box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+                padding: 1px 10px 2px 10px;
+            }
+
+                .grid-footer a:active {
+                    background-color: #fefeff;
+                    color: #FFAD33;
+                    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+                }
+
+        .alternatingRowStyle {
+            background-color: aliceblue;
+        }
+
+        table .table1 {
+            text-align: left;
+            margin-left: 0px;
+            margin-right: 0px;
+            width: 800px;
+        }
+
+        table {
+            border-radius: 5px;
+        }
+
+        .tr, .td {
+            text-align: left;
+        }
+
+        .header_table {
+            background-color: aqua;
+        }
+
+        #gr_bt a {
+            text-decoration: none;
+            color: #fefeff;
+        }
+
+            #gr_bt a:hover {
+                text-decoration: none;
+                color: #fefeff;
+            }
+
+        #bt_details a {
+            text-decoration: none;
+            color: #fefeff !important;
+        }
+
+        .border_none {
+            border: 0;
+            border-radius: 3px;
+        }
+
+        form {
+            width: 52%;
+        }
+
+            form input {
+                outline: none;
+            }
+
+        .details .home-filter_details {
+            padding: 12px 22px;
+            border-radius: 2px;
+            align-items: center;
+            background-color: rgba(0, 0, 0, 0.05);
+        }
+
+        .details .grid__row_details {
+            margin-left: -12px;
+            margin-right: -12px;
+        }
+
+        #cart .card:hover {
+            opacity: 1;
+        }
+
+        .mask_hover img:hover {
+            opacity: 0.6;
+        }
+
+        ul.pagination li {
+            padding: 6px;
+            background-color: #fefeff;
+            border-radius: 6px;
+        }
+
+        ul.pagination a {
+            text-decoration: none;
+        }
+
+        .header__cart-wrap {
+            position: relative;
+            cursor: pointer;
+        }
+
+        .header__cart-notice {
+            position: absolute;
+            left: 100px;
+            top: -5px;
+            background-color: white;
+            border: 2px solid #74787c;
+            border-radius: 30px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            padding: 1px 6px;
+        }
+    </style>
+    <link rel="stylesheet" href="~/Assets/CSS/add0.css">
+    <link rel="stylesheet" href="~/Assets/CSS/add1a.css">
+    <link rel="stylesheet" href="~/Assets/CSS/add2a.css">
+    <!-- <link rel="stylesheet" href="./assets/fontawesome-free-5.12.1/fontawesome-free-5.12.1-web/css/all.min.css"> -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap&subset=vietnamese" rel="stylesheet">
+    <link rel="stylesheet" href="~/Assets/fontawesome-free-5.15.3-web/css/all.min.css">
+    <script src="~/Assets/JS/index.js"></script>
+    
+
+</head>
+
+<body id="canvas">
+        <div class="app">
+            <header class="header">
+                <div class="navbar">
+                    <div class="navbar-right">
+                        <ul class="navbar-list">
+                            <li class="navbar-item ">
+                                <a style="text-decoration:none" class="navbar-link" href="@Url.Action("Index", "Saches/Index", null)">Trang chủ</a>
+                                <i style="color: white" class="fas fa-home"></i>
+                            </li>
+                            <li class="navbar-item ">
+                                <a style="text-decoration:none" class="navbar-link" href="@Url.Action("Index", "Gioithieu/Index", null)">Giới thiệu</a>
+                                <i style="color: white" class="fas fa-question-circle"></i>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="navbar-left">
+                        <ul class="navbar-list">
+                            <li class="navbar-item ">
+                                <a style="text-decoration:none" class="navbar-link" href="https://www.facebook.com/mbao1301/">Contact</a>
+                                <i style="color: white" class="fas fa-phone"></i>
+                            </li>
+
+                            <li class="navbar-item ">
+                                @*<a class="navbar-link" href="@Url.Action("Giohang", "Giohang/Giohang", null)">
+                                        <i class="fas fa-cart-plus"></i>
+                                    </a>*@
+                                @Html.Action("TongSLHang", "GioHang")
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="header-name">
+                    <h1 class="header-text ">Nhà sách Phương Nam</h1>
+                    <h3 style=" letter-spacing: 4px;" class="header-text ">Sách là cửa sổ của tri thức</h3>
+                </div>
+                <style>
+                    .header__search-input-wrap form {
+                        width: 100%
+                    }
+                </style>
+                <div class="header__search-input-wrap">
+                    <a href="@Url.Action("Index", "Saches/Index", null)" class="toggle_button margin-right">
+                        <i class="fas fa-home"></i>
+                    </a>
+                    <a href="" class="toggle_button margin-right">
+                        <i class="fas fa-search"></i>
+                    </a>
+                    @*<input type="text" class="header__search-input margin-right" placeholder="Nhập để tìm kiếm">*@
+                    <div class="d-flex justify-content-center">
+                        @using (Html.BeginForm("TimKiem", "Saches/TimKiem", FormMethod.Get))
+                        {
+
+                            <input type="text" class="header__search-input margin-right" placeholder="Nhập tên sách để tìm" name="param" value="@ViewBag.tenSach">
+                            @*name="tenTG" value ="@ViewBag.tenTG">*@
+                            <button class="header__search-btn">
+                                <a href="https://www.facebook.com/mbao1301/"><i class="header__search-btn-icon fas fa-search"></i></a>
+                            </button>
+                        }
+                    </div>
+                    @*<button class="header__search-btn">
+                            <i class="header__search-btn-icon fas fa-search"></i>
+                        </button>*@
+                    @Html.Action("TongSLHangMB", "GioHang")
+                    <a href="" id="sign-in-mb" class="toggle_button">
+                        <i style="color: white" class="fas fa-phone"></i>
+                    </a>
+                    <a href="" class="toggle_button user-link class_none">
+                        <img class="user-img" src="https://scontent-hkg4-1.xx.fbcdn.net/v/t1.6435-9/137061987_1041857019558186_797500387347313500_n.jpg?_nc_cat=108&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=zfaFQgKAZHsAX-CbEwQ&_nc_ht=scontent-hkg4-1.xx&oh=e227dc79a87bb607149334f31c4aff8b&oe=60B24440">
+                    </a>
+                </div>
+
+            </header>
+
+            <div class="app__container">
+                @RenderBody()
+            </div>
+
+            <footer class="footer">
+                <div>
+                    <aside class="footer-social" style="text-align: center;">
+                        <ul class="social-list">
+                            <li class="social-item">
+                                <a href="" class="social-link">
+                                    <i class="social-icon fab fa-facebook-square "></i>
+                                </a>
+                            </li>
+                            <li class="social-item">
+                                <a href="" class="social-link">
+                                    <i class="social-icon fab fa-twitter "></i>
+                                </a>
+                            </li>
+                            <li class="social-item">
+                                <a href="" class="social-link">
+                                    <i class="social-icon fab fa-instagram "></i>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </aside>
+
+                    <div class="for_us">
+                        <div class="for_us-SIA">
+                            <h4 class="self_title">Về chúng tôi</h4>
+                            <ul style="list-style-type: none;" class="self_list">
+                                <li class="self_item">
+                                    <a class="self_link" href="#">Blog</a>
+                                </li>
+                                <li class="self_item">
+                                    <a class="self_link" href="">Nhân viên tư vấn</a>
+                                </li>
+                                <li class="self_item">
+                                    <img class="self_img" src="~/Assets/Multimedia/bo-cong-thuong.png" />
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="for_us-SIA">
+                            <h4 class="self_title">Thông tin</h4>
+                            <ul style="list-style-type: none;" class="self_list">
+                                <li class="self_item">
+                                    <a class="self_link" href="">Thanh toán và bảo mật</a>
+                                </li>
+                                <li class="self_item">
+                                    <a class="self_link" href="">Giao hàng miễn phí</a>
+                                </li>
+                                <li class="self_item">
+                                    <a class="self_link" href="">Điều khoản sử dụng</a>
+                                </li>
+                                <li class="self_item">
+                                    <a class="self_link" href="">Chính sách ưu đãi</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="for_us-SIA">
+                            <h4 class="self_title">Tư vấn</h4>
+                            <ul style="list-style-type: none;" class="self_list">
+                                <li class="self_item">
+                                    <a class="self_link" href="">Trao đổi, giao dich</a>
+                                </li>
+                                <li class="self_item">
+                                    <a class="self_link" href="">Văn phòng</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="self_title copyright">Copyright &copy; by 60.CNPM-1</div>
+                </div>
+            </footer>
+
+        </div>
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+﻿@model BT_NHOM.Models.Sach
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Delete</h2>
+
+<div id="cart" class="grid__column-12">
+    <h1 class="text-center">Bạn chắc chắn muốn xóa sách này ?</h1>
+    <div class="form-horizontal" style="display:flex; justify-content:center">
+        <img style="width: 250px; height: 300px; align-self: center; display: flex;" src="~/Assets/Multimedia/@Html.DisplayFor(model => model.AnhBia)" />
+        <div style=" margin-left: 10px; width: 350px;">
+            <label class="form-control">Mã sách: @Html.DisplayFor(model => model.MaSach)</label>
+            <label class="form-control">Tên sách: @Html.DisplayFor(model => model.TenSach)</label>
+
+            <label class="form-control" for="">Tên tác giả: @Html.DisplayFor(model => model.TenTG)</label>
+            <label class="form-control">Ngày xuất bản: @Html.DisplayFor(model => model.NgayXB)</label>
+            <label class="form-control" for="">Số lượng còn: @Html.DisplayFor(model => model.SoLuongTon)</label>
+            <label class="form-control" for="">Thể loại: @Html.DisplayFor(model => model.TheLoai.TenTL)</label>
+            <label class="form-control" for="">Ngôn ngữ: @Html.DisplayFor(model => model.NgonNgu.TenNN)</label>
+            <label class="form-control" for="">Thể loại: @Html.DisplayFor(model => model.NhaXuatBan.TenNXB)</label>
+        </div>
+
+    </div>
+    <div class="home-filter grid__row">
+
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="form-actions no-color" style="margin-top">
+                <button type="submit" value="DelSACH" class="price price_color">Xóa</button> |
+                @Html.ActionLink("back to list", "IndexSACH")
+            </div>
+        }
+    </div>
+</div>

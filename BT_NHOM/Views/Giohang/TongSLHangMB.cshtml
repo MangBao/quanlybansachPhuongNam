@@ -1,0 +1,11 @@
+﻿
+
+<a href="@Url.Action("GioHang","GioHang")" class="toggle_button margin-right header__cart-wrap">
+    <i class="header__cart-icon fas fa-cart-plus" aria-hidden="true" style="color:white"></i>
+    @if (ViewBag.TongSoLuong == null)
+    {
+        ViewBag.TongSoLuong = 0;
+    }
+    <span class="header__cart-notice">@ViewBag.TongSoLuong</span>
+</a>
+

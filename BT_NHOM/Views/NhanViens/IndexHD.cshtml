@@ -1,0 +1,50 @@
+﻿@model IEnumerable<BT_NHOM.Models.ViewModels>
+
+@{
+    ViewBag.Title = "IndexHD";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    var grid = new WebGrid(Model, canPage: true, defaultSort: "hoaDon.MaHD", rowsPerPage: 5);
+}
+
+<h1 style="text-align:center">Danh sách hóa đơn</h1>
+<table class="table">
+    @grid.GetHtml(
+            tableStyle: "table table-bordered table-hover",
+            headerStyle: "header_table",
+            footerStyle: "grid-footer",
+            fillEmptyRows: true,
+            mode: WebGridPagerModes.Numeric,
+            alternatingRowStyle: "alternatingRowStyle",
+              columns: new[]{
+                grid.Column("STT",format: item => item.WebGrid.Rows.IndexOf(item) + 1 + Math.Round(Convert.ToDouble(grid.TotalRowCount / grid.PageCount) / grid.RowsPerPage) * grid.RowsPerPage * grid.PageIndex),
+                grid.Column("hoaDon.MaHD","Mã hóa đơn"),
+                
+                grid.Column("Họ và tên Khách hàng", format: item => item.hoaDon.TenKH),
+                @*grid.Column("SoLuongSach","Số lượng sách"),
+                grid.Column("GiaBan","Giá bán"),*@
+                grid.Column("hoaDon.DiaChiGiao","Địa chỉ giao"),
+                 //the model fields to display
+                @*grid.Column("hoaDon.NgayXuatKho","Ngày xuất kho",format:@<text> @item.hoaDon.NgayXuatKho.ToString("dd/MM/yyyy")</text>),
+                grid.Column("hoaDon.NgayGiao","Ngày giao", format:@<text> @item.hoaDon.NgayGiao.ToString("dd/MM/yyyy")</text>),*@
+                
+                grid.Column("hoaDon.TinhTrang","Tình trạng đơn",format: (@item) => @item.hoaDon.TinhTrang == 1 ? "Nhân viên chưa kiểm": (@item.hoaDon.TinhTrang == 2 ? "Nhân viên đã kiểm" : "Đã giao hàng")),                
+                
+                
+                grid.Column("Chức năng", format: @<text>
+
+                    <a href="@Url.Action("EditHD",
+                                new { id = item.hoaDon.MaHD })" class="edit-btn">
+                        <abbr title="Kiểm duyệt"><img src="~/Assets/Multimedia/edit.png" width="20" height="20" /></abbr></a>&nbsp;|&nbsp;
+                    <a href="@Url.Action("CTHoaDon",
+                                new { id = item.hoaDon.MaHD })" class="edit-btn">
+                        <abbr title="Chi tiết"><img src="~/Assets/Multimedia/details.png" width="20" height="20" /></abbr></a>&nbsp;|&nbsp;                    
+                    <a href="@Url.Action("DelHD",
+                                new { id = item.hoaDon.MaHD })" class="edit-btn">
+                        <abbr title="Xóa"><img src="~/Assets/Multimedia/delete.png" width="20" height="20" /></abbr>
+                    </a>
+                </text>),
+                 @*grid.Column(format: (item) => Html.ActionLink("Xem chi tiết", "CTHoaDon","InHoaDon",new { id = item.MAHD },"InHoaDonController")),*@
+              }
+          )
+
+</table>

@@ -1,0 +1,58 @@
+﻿@model BT_NHOM.Models.TacGia
+@{
+    ViewBag.Title = "CreateTG";
+    Layout = "~/Views/Shared/_LayoutHomePage.cshtml";
+}
+
+<div id="cart" class="grid__column-12">
+    <div class="home-filter grid__row">
+
+        @using (Html.BeginForm("CreateTG", "NhanViens", FormMethod.Post))
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="form-horizontal">
+                <hr />
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                <div class="form-group">
+                    @Html.LabelFor(model => model.MaTG, htmlAttributes: new { @class = "control-label col-md-4 text-right" })
+                    <div class="col-md-8">
+                        @Html.EditorFor(model => model.MaTG, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.MaTG, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.TenTG, htmlAttributes: new { @class = "control-label col-md-4 text-right" })
+                    <div class="col-md-8">
+                        @Html.EditorFor(model => model.TenTG, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.TenTG, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.DiaChi, htmlAttributes: new { @class = "control-label col-md-4 text-right" })
+                    <div class="col-md-8">
+                        @Html.EditorFor(model => model.DiaChi, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.DiaChi, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-8">
+                        <input type="submit" value="CreateTG" class="price price_color" /> |
+                        @Html.ActionLink("Back to List", "IndexTG")
+                    </div>
+                </div>
+            </div>
+        }
+        @*<div>
+                @Html.ActionLink("Back to List", "Index")
+            </div>*@
+
+        <script src="~/Scripts/jquery-3.4.1.min.js"></script>
+        <script src="~/Scripts/jquery.validate.min.js"></script>
+        <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+    </div>
+</div>
+

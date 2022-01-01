@@ -1,0 +1,198 @@
+﻿@using BT_NHOM.Models;
+@model List<GioHang>
+
+@{
+    ViewBag.Title = "Giohang";
+    Layout = "~/Views/Shared/_LayoutHomePage.cshtml";
+}
+
+<div class="grid">
+    <div class="grid__row app__content">
+        <div>
+            @Html.Action("TB", "GioHang")
+        </div>
+
+        <table class="tb_mobile">
+            <tr>
+
+                <th style="font-weight:bold">Tên Sách</th>
+
+                <th style="font-weight:bold">Ảnh Bìa</th>
+
+                <th style="font-weight:bold">Đơn Giá</th>
+
+                <th style="font-weight:bold">Số Lượng</th>
+
+                <th style="font-weight:bold">Thành Tiền</th>
+            </tr>
+
+
+            @foreach (var item in Model)
+            {
+                <tr class="item">
+                    <td>@item.iTenSP</td>
+                    <td><img src="@Url.Content("~/Assets/Multimedia/"+item.iAnhBia)" style="width:50px;height:50px" alt="Image" class="img-fluid"></td>
+                    <td>@string.Format("{0:0,0}", item.iDonGia) vnd</td>
+                    <td>@item.iSoLuong</td>
+                    <td>@string.Format("{0:0,0}", item.iThanhTien) vnd</td>
+                    <td>
+                        <div class="quitbag" style="display: flex; justify-content:center">
+                            <button class="price price_color btnhuysach">@Html.ActionLink("Hủy hàng", "XoaGioHang", new { @Ma = item.iMaSP })</button>
+                        </div>
+                    </td>
+                </tr>
+
+            }
+
+
+        </table>
+    </div>
+    <div class="d-flex justify-content-end mt=2" style="font-weight:bold">
+        <h3>Tổng tiền: @Html.Action("TongTien", "GioHang") vnđ</h3>
+    </div>
+    <div class="d-flex justify-content-center mt=2">
+        <button type="button" class="btn sell btn-warning mt-4" onclick="openWin()">@Html.ActionLink("Chỉnh sửa giỏ hàng", "SuaGioHang")</button>
+    </div>
+    <div id="form_xn">
+
+        @using (Html.BeginForm("DatHang", "GioHang", FormMethod.Post, new { @style = "width: 100%" }))
+        {
+            
+            <div id="myModal" class="modal">
+
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <style>
+
+                        .h2_tag {
+                            margin-top: 50px;
+                            margin-bottom: 30px;
+                            margin-left: auto;
+                            margin-right: auto;
+                        }
+
+                        .label_tag {
+                            display: block;
+                            font-weight: bold;
+                        }
+
+                        .input_tag {
+                            display: block;
+                            border-top: 1px solid white;
+                            border-left: 1px solid white;
+                            border-right: 1px solid white;
+                            border-bottom: 2px solid #00BCD4;
+                            margin-top: 6px;
+                            margin-bottom: 10px;
+                            outline-style: none;
+                        }
+
+                        .center_pos {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        }
+
+                        .input_tag[type="text"] {
+                            
+                            margin-left: 4px;
+                        }
+
+                        .input_tag#XacNhan {
+                            padding: 7px;
+                            margin-left: auto;
+                            margin-top: 30px;
+                            width: 70%;
+                            border-radius: 10px;
+                            border: none;
+                            bottom: 10px;
+                            cursor: pointer;
+                            margin-right: auto;
+                            background: linear-gradient(to right, #fc00ff, #00dbde);
+                        }
+
+                        .input#XacNhan:hover {
+                            background: linear-gradient(to right, #fc466b, #3f5efb);
+                        }
+
+                        #XacNhan a {
+                            color: white;
+                        }
+                    </style>
+                    
+                </div>
+            </div>
+            <div class="row" style="width:100%; font-size: 1.5rem ">
+                <h2 class="h2_tag">Xác nhận đơn</h2>
+
+                <div class="center_pos col-sm-12">
+                    <label class="label_tag col-sm-2">Họ và tên</label>
+                    <input class="input_tag col-sm-6" type="text" name="tenKH" value="@ViewBag.tenKH" pattern="^[a-zA-ZÀÁÂÃÈÉÊÌÍÒÓÔÕÙÚĂĐĨŨƠàáâãèéêìíòóôõùúăđĩũơƯĂẠẢẤẦẨẪẬẮẰẲẴẶẸẺẼỀỀỂẾưăạảấầẩẫậắằẳẵặẹẻẽềềểếỄỆỈỊỌỎỐỒỔỖỘỚỜỞỠỢỤỦỨỪễệỉịọỏốồổỗộớờởỡợụủứừỬỮỰỲỴÝỶỸửữựỳỵỷỹ\s\W|_]+$" required>
+                    <label id='mess' style="color:white;"></label>
+                </div>
+                <div class="center_pos col-sm-12">
+                    <label class="label_tag col-sm-2">Số điện thoại</label>
+                    <input class="input_tag col-sm-6" type="tel" name="sdt" value="@ViewBag.sdt" pattern="^(0[234][0-9]{8}|1[89]00[0-9]{4})$" required>
+                    <label id='mess' style="color:white;"></label>
+                </div>
+                <div class="center_pos col-sm-12">
+                    <label class="label_tag col-sm-2">Địa chỉ</label>
+                    <input class="input_tag col-sm-6" type="text" name="diaChi" value="@ViewBag.diaChi" required>
+                    <label id='mess' style="color:white;"></label>
+                </div>
+                <button type="submit" id="XacNhan" class="input_tag col-md-6" onclick="openWin()">Xác nhận</button>
+            </div>
+        }
+
+
+    </div>
+
+
+
+    <script language="javascript">
+        var modal = document.getElementById("myModal");
+
+        // Get the button that opens the modal
+        var btn = document.getElementById("myBtn");
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+
+        // When the user clicks the button, open the modal 
+        btn.onclick = function () {
+            modal.style.display = "block";
+        }
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function () {
+            modal.style.display = "none";
+        }
+        function Kiemtrathongtin(event) {
+
+            ///Cách 1: sài event 
+            event.preventDefault();
+            //var temp=document.getElementById('input').value;
+            var temp = document.forms['form']['input'].value;
+            var mess = document.getElementById('mess');
+            if (temp == '') {
+
+                mess.innerHTML = 'Bạn nhập thiếu rồi';
+
+            }
+        }
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+        var button = document.getElementById("XacNhan");
+        button.onclick = function () {
+            alert("Xác nhận đặt hàng thành công!");
+        }
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="~/Assets/JS/index.js"></script>
+</div>
+

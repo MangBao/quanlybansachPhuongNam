@@ -1,0 +1,37 @@
+﻿@model IEnumerable<BT_NHOM.Models.NhaCungCap>
+
+@{
+    ViewBag.Title = "IndexNCC";
+    Layout = "~/Views/Shared/_LayoutNhanVien.cshtml";
+    var grid = new WebGrid(Model, canPage: true, defaultSort: "MaNXB", rowsPerPage: 5);
+}
+
+<a href="@Url.Action("CreateNCC")" style="margin-top: 20px;" class="price price_color">Thêm NCC</a>
+
+<table class="table">
+    @grid.GetHtml(
+            tableStyle: "table table-bordered table-hover",
+            headerStyle: "header_table",
+            footerStyle: "grid-footer",
+            fillEmptyRows: true,
+            mode: WebGridPagerModes.Numeric,
+            alternatingRowStyle: "alternatingRowStyle",
+              columns: new[]{
+                grid.Column("STT",format: item => item.WebGrid.Rows.IndexOf(item) + 1 + Math.Round(Convert.ToDouble(grid.TotalRowCount / grid.PageCount) / grid.RowsPerPage) * grid.RowsPerPage * grid.PageIndex),
+                grid.Column("MaNCC","Mã NCC"),
+                grid.Column("TenNCC","Tên NCC"),
+                grid.Column("DiaChiNCC", "Địa chỉ"),
+                grid.Column("SDTNCC", "Điện thoại"),
+
+                grid.Column("Chức năng", format: @<text>
+
+                <a href="@Url.Action("EditNCC",
+                                            new { id = item.MaNCC })" class="edit-btn">Chỉnh sửa</a>
+                @*&nbsp;|&nbsp;
+                    <a href="@Url.Action("DelNXB",
+                                new { id = item.MaNXB})" class="edit-btn">Xóa NXB</a>*@
+                </text>)
+       }
+   )
+
+</table>

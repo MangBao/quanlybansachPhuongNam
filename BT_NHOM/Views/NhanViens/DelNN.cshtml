@@ -1,0 +1,33 @@
+﻿@model BT_NHOM.Models.NgonNgu
+
+@{
+    ViewBag.Title = "DelNN";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div id="cart" class="grid__column-12" style="margin-top:20px">
+
+    <h3 style="text-align: center;">Bạn có chắc muốn xóa ngôn ngữ @Html.DisplayFor(model => model.TenNN)?</h3>
+    <hr />
+    <div class="form-horizontal" style="display:flex; justify-content:center">
+
+        <div style=" margin-left: 10px; width: 350px;">
+            <label class="form-control">@Html.DisplayNameFor(model => model.MaNN): @Html.DisplayFor(model => model.MaNN)</label>
+            <label class="form-control">@Html.DisplayNameFor(model => model.TenNN): @Html.DisplayFor(model => model.TenNN)</label>
+
+        </div>
+
+    </div>
+    <div class="home-filter grid__row">
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="form-actions no-color">
+                <button type="submit" value="DelNN" class="btn btn--primary">Xóa</button> |
+
+                @Html.ActionLink("Back to List", "IndexNN")
+            </div>
+        }
+    </div>
+</div>

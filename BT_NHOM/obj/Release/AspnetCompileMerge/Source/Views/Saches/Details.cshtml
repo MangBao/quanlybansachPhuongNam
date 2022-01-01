@@ -1,0 +1,31 @@
+﻿@model BT_NHOM.Models.Sach
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_LayoutHomePage.cshtml";
+}
+<div id="cart" class="grid__column-12 details">
+    <div class="home-filter_details grid__row_details">
+        <form name="f1" action="/SINHVIEN/Index" method="post" style="display: flex; margin-right: auto; margin-left: auto;">
+            @*<img style="width: 200px; height: 200px; border-radius: 100px; align-self: center; display: flex; margin: auto;" src="~/Assets/Multimedia/@Html.DisplayFor(model => model.AnhBia)" />*@
+            <div>
+                <img style="width: 200px; height: 200px; border-radius: 100px; align-self: center; margin-right: 10px" src="~/Assets/Multimedia/@Html.DisplayFor(model => model.AnhBia)" />
+                <div id="bt_details" style="margin-top: 10px; text-align: center;">
+                    @*<button class="price price_color" style="margin-right: 10px">@Html.ActionLink("", "", new { id = Model.MaSach })Thêm vào giỏ hàng</button>*@
+                    <button class="price price_color"> @Html.ActionLink("Back to List", "Index")</button>
+                </div>
+            </div>
+            <div style=" margin-left: 10px; width: 350px;">
+                <label class="">Tên sách: @Html.DisplayFor(model => model.TenSach)</label><br />
+                <label class="">Tên tác giả: @Html.DisplayFor(model => model.TenTG)</label><br />
+                <label class="" for="">Ngày xuất bản: @Html.DisplayFor(model => model.NgayXB)</label><br />
+                <label class="" for="">Số lượng tồn: @Html.DisplayFor(model => model.SoLuongTon)</label> <br />
+                @*<label class="form-control">Ngày sinh: @Html.DisplayFor(model => model.MoTa)</label>*@
+                <label class="" for="">Ngôn ngữ: @Html.DisplayFor(model => model.NgonNgu.TenNN)</label><br />
+                <label class="" for="">Nhà xuất bản: @Html.DisplayFor(model => model.NhaXuatBan.TenNXB)</label><br />
+                <label class="" for="">Thể loại: @Html.DisplayFor(model => model.TheLoai.TenTL)</label>
+            </div>
+        </form>
+        <label class="" style="display: flex; justify-content: center;">Mô tả: @Html.DisplayFor(model => model.MoTa)</label>
+    </div>
+</div>

@@ -1,0 +1,402 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Trang quản trị</title>
+
+    <!-- Custom fonts for this template-->
+    <link href="~/Assets/fontawesome-free-5.15.3-web/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+          rel="stylesheet">
+    <link href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css" rel="stylesheet" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js" crossorigin="anonymous"></script>
+
+    <!-- Custom styles for this template-->
+    <link href="~/AssetsLayoutAdmin/css/sb-admin-3.min.css" rel="stylesheet">
+    <style>
+        .header-bar .price {
+            font-size: 2.4rem;
+        }
+        .grid_index{
+            margin-top: 40px;
+
+        }
+        table {
+            font-size: 0.9rem;
+        }
+        table td {
+            text-align: center;
+            align-items: center;
+        }
+        table th {
+            text-align: center;
+        }
+        .form-group{
+            display:flex!important;
+        }
+        @*td a:not(.edit-btn) {
+            border-radius: 4px;
+            padding: 8px;
+            margin-left: 5px;
+            background-color: coral;
+        }
+
+        .table-bordered{
+
+        }*@
+        .grid-footer {
+            color: #000;
+
+            text-align: center;
+            font-weight: bold;
+        }
+        .grid-footer a {
+            background-color: #fefeff;
+            color: blue;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            padding: 1px 10px 2px 10px;
+        }
+        .grid-footer a:active {
+            background-color: #fefeff;
+            color: #FFAD33;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        }
+        .alternatingRowStyle {
+            background-color: aliceblue;
+        }
+
+        table .table1 {
+            text-align: left;
+            margin-left: 0px;
+            margin-right: 0px;
+            width: 800px;
+        }
+        table {
+            border-radius: 5px;
+        }
+        .tr, .td {
+            text-align: left;
+        }
+        .header_table {
+            background-color: aqua;
+        }
+        #gr_bt a {
+            text-decoration: none;
+            color: #fefeff;
+        }
+        #gr_bt a:hover {
+            text-decoration: none;
+            color: #fefeff;
+        }
+        #bt_details a{
+            text-decoration: none;
+            color: #fefeff!important;
+        }
+        .border_none {
+            border: 0;
+            border-radius: 3px;
+        }
+        form {
+            width: 52%;
+        }
+        form input {
+            outline: none;
+        }
+        .details .home-filter_details {
+            padding: 12px 22px;
+            border-radius: 2px;
+            align-items: center;
+            background-color: rgba(0, 0, 0, 0.05);
+        }
+        .details .grid__row_details {
+            margin-left: -12px;
+            margin-right: -12px;
+        }
+        #cart .card:hover {
+            opacity: 1;
+        }
+        .mask_hover img:hover {
+            opacity: 0.6;
+        }
+        ul.pagination li {
+            padding: 6px;
+            background-color: #fefeff;
+            border-radius: 6px;
+        }
+        ul.pagination a {
+            text-decoration: none;
+        }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.2/jspdf.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body id="page-top">
+
+    <!-- Page Wrapper -->
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+            <!-- Sidebar - Brand -->
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="@Url.Action("Index", "Home/Index", null)">
+                <div class="sidebar-brand-icon rotate-n-15">
+                    <i class="fas fa-chalkboard-teacher"></i>
+                </div>
+                <div class="sidebar-brand-text mx-3">Admin QLBS</div>
+            </a>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider my-0">
+
+            <!-- Nav Item - Dashboard -->
+            <li class="nav-item active">
+                <a class="nav-link" href="@Url.Action("Index", "Home/Index", null)">
+                    <i class="fas fa-home"></i>
+                    <span>Trang chủ</span>
+                </a>
+            </li>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider">
+
+            <!-- Heading -->
+            <div class="sidebar-heading">
+                Quản lý
+            </div>
+
+            <!-- Nav Item - Pages Collapse Menu -->
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
+                   aria-expanded="true" aria-controls="collapseTwo">
+                    <i class="fas fa-fw fa-wrench"></i>
+                    <span>Hệ Thống</span>
+                </a>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <h6 class="collapse-header">Các thành phần hệ thống:</h6>
+                        <a class="collapse-item" href="@Url.Action("Index", "DanhSachQuyens/Index", null)">Phân quyền</a>
+                        <a class="collapse-item" href="@Url.Action("Index", "NhomNhanViens/Index", null)">Nhóm nhân viên</a>
+                        <a class="collapse-item" href="@Url.Action("StaffSystem", "NhanViens/StaffSystem", null)">Nhân viên</a>
+
+                    </div>
+                </div>
+            </li>
+
+            <!-- Nav Item - Utilities Collapse Menu -->
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="@Url.Action("IndexSACH","NhanViens/IndexSACH", null)">
+                    <i class="fas fa-book-open"></i>
+                    <span>Sách</span>
+                </a>
+
+            </li>
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="@Url.Action("IndexTL","NhanViens/IndexTL", null)">
+                    <i class="fas fa-copy"></i>
+                    <span>Thể loại</span>
+                </a>
+
+            </li>
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="@Url.Action("IndexNN","NhanViens/IndexNN", null)">
+                    <i class="fas fa-language"></i>
+                    <span>Ngôn ngữ</span>
+                </a>
+
+            </li>
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="@Url.Action("IndeTG","NhanViens/IndexTG", null)">
+                    <i class="fas fa-user-edit"></i>
+                    <span>Tác giả</span>
+                </a>
+
+            </li>
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="@Url.Action("IndexNCC","NhanViens/IndexNCC", null)">
+                    <i class="fas fa-american-sign-language-interpreting"></i>
+                    <span>Nhà cung cấp</span>
+                </a>
+
+            </li>
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="@Url.Action("IndexNXB","NhanViens/IndexNXB", null)">
+                    <i class="fas fa-rss"></i>
+                    <span>Nhà xuất bản</span>
+                </a>
+
+            </li>
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="@Url.Action("IndexHD","NhanViens/IndexHD", null)">
+                    <i class="fas fa-file-invoice-dollar"></i>
+                    <span>Hóa đơn</span>
+                </a>
+
+            </li>
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="@Url.Action("IndexPN","NhanViens/IndexPN", null)">
+                    <i class="fas fa-book-open"></i>
+                    <span>Phiếu nhập</span>
+                </a>
+
+
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="@Url.Action("BaoCao","NhanViens/BaoCao", null)">
+                    <i class="fas fa-fax"></i>
+                    <span>Báo cáo</span>
+                </a>
+
+            </li>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider">
+
+
+
+
+            <!-- Sidebar Toggler (Sidebar) -->
+            <div class="text-center d-none d-md-inline">
+                <button class="rounded-circle border-0" id="sidebarToggle"></button>
+            </div>
+
+            <!-- Sidebar Message -->
+
+
+        </ul>
+        <!-- End of Sidebar -->
+        <!-- Content Wrapper -->
+        <div id="content-wrapper" class="d-flex flex-column">
+
+            <!-- Main Content -->
+            <div id="content">
+
+                <!-- Topbar -->
+                <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+
+                    <!-- Sidebar Toggle (Topbar) -->
+                    <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+                        <i class="fa fa-bars"></i>
+                    </button>
+
+                    <!-- Topbar Search -->
+
+                    <h1 style="color: red; margin-left: auto; font-weight:600">Nhà sách Phương Nam</h1>
+
+                    <!-- Topbar Navbar -->
+                    <ul class="navbar-nav ml-auto">
+
+                        <!-- Nav Item - User Information -->
+                        <li class="nav-item dropdown no-arrow">
+                            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
+                               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">@Session["FullName"]</span>
+                                <img class="img-profile rounded-circle"
+                                     src="~/AssetsLayoutAdmin/img/@Session["imgName"]">
+                            </a>
+                            <!-- Dropdown - User Information -->
+                            <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
+                                 aria-labelledby="userDropdown">
+                                <a class="dropdown-item" href="@Url.Action("Details", "TaiKhoan/Details", null)">
+                                    <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    Thông tin tài khoản
+                                </a>
+                                <a class="dropdown-item" href="@Url.Action("ChangePassword", "TaiKhoan/ChangePassword", null)">
+                                    <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    Đổi mật khẩu
+                                </a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
+                                    <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    Đăng xuất
+                                </a>
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </nav>
+                <!-- End of Topbar -->
+                <!-- Begin Page Content -->
+                <div class="container-fluid">
+
+
+                    @RenderBody()
+
+                </div>
+                <!-- /.container-fluid -->
+
+            </div>
+            <!-- End of Main Content -->
+            <!-- Footer -->
+            <footer class="sticky-footer bg-white">
+                <div class="container my-auto">
+                    <div class="copyright text-center my-auto">
+                        <span>Copyright &copy; by 60.CNPM-1</span>
+                    </div>
+                </div>
+            </footer>
+            <!-- End of Footer -->
+
+        </div>
+        <!-- End of Content Wrapper -->
+
+    </div>
+    <!-- End of Page Wrapper -->
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top">
+        <i class="fas fa-angle-up"></i>
+    </a>
+
+    <!-- Logout Modal-->
+    <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Chắc chắn rời khỏi?</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">Chọn "Đăng xuất" bên dưới nếu bạn đã sẵn sàng kết thúc phiên hiện tại của mình.</div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Huỷ</button>
+                    <a class="btn btn-primary" href="@Url.Action("Logout", "Logins")">Đăng xuất</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript-->
+    <script src="~/AssetsLayoutAdmin/vendor/jquery/jquery.min.js"></script>
+    <script src="~/AssetsLayoutAdmin/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Core plugin JavaScript-->
+    <script src="~/AssetsLayoutAdmin/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for all pages-->
+    <script src="~/AssetsLayoutAdmin/js/sb-admin-2.min.js"></script>
+
+    <!-- Page level plugins -->
+    <script src="~/AssetsLayoutAdmin/vendor/chart.js/Chart.min.js"></script>
+
+    <!-- Page level custom scripts -->
+    <script src="~/AssetsLayoutAdmin/js/demo/chart-area-demo.js"></script>
+    <script src="~/AssetsLayoutAdmin/js/demo/chart-pie-demo.js"></script>
+
+</body>
+
+</html>
